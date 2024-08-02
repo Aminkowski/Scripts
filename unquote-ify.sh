@@ -1,5 +1,4 @@
 #!/bin/bash
-#instead make it so that you loop through all arguments
 if [ $# -ne 1 ]; then 
     echo "needs only one argument"
     exit 1
