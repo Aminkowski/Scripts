@@ -2,11 +2,11 @@
 eval $(ssh-agent)
 ssh-add
 cd $PERSONAL
-git pull && git diff --stat && git add . && git commit -qm "routine sync via script" && git push
+git pull -q && git diff --stat && git add . && git commit -qm "routine sync via script" && git push -q
 cd $OLDPWD
 cd $MY_DOTFILES
-git pull && git diff --stat && git add . && git commit -qm "routine sync via script" && git push
+git pull -q && git diff --stat && git add . && git commit -qm "routine sync via script" && git push -q
 cd $OLDPWD
 cd $SCRIPTSPACE
-git pull && git diff --stat && git add . && git commit -qm "routine sync via script" && git push
+git pull -q && git diff --stat && git add . && git commit -qm "routine sync via script" && git push -q
 cd $OLDPWD
