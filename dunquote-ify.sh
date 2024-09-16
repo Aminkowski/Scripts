@@ -12,5 +12,5 @@ fi
 
 for file in "$1"/*; do
 	echo "$file being renamed"
-	/usr/local/bin/unquote-ify.sh "$file"
+	unquote-ify.sh "$file"
 done

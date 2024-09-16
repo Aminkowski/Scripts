@@ -10,3 +10,6 @@ cd $OLDPWD
 cd $SCRIPTSPACE
 git pull -q && git diff --stat && git add . && git commit -qm "routine sync via script" && git push -q
 cd $OLDPWD
+cd "$CODESPACE/Advent-of-Code"
+git pull -q && git diff --stat && git add . && git commit -qm "routine sync via script" && git push -q
+cd $OLDPWD
