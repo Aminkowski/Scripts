@@ -1,0 +1,2594 @@
+[ '$(echo $XDG_SESSION_TYPE)' = 'x11' ] && echo "ya"
+[ '$(echo $XDG_SESSION_TYPE)' == 'x11' ] && echo "ya"
+[ '$(echo $XDG_SESSION_TYPE)'='x11' ] && echo "ya"
+$sam | sed 's/ /_/g' $sam
+[ '$XDG_SESSION_TYPE' = 'x11' ] 
+[ '$XDG_SESSION_TYPE' = 'x11' ] && echo "ya"
+[ '$XDG_SESSION_TYPE' == 'x11' ] && echo "ya"
+[ '$XDG_SESSION_TYPE'='x11' ] && echo "ya"
+14:50> creator@arch Quest$ la
+[ 1 -eq 2 ] && echo "True" || echo "False"
+[ 1 -ne 2 -a -n "hello there" ] && echo "True" || echo "False"
+[ [ 1 -ne 2 ] -a [ -z "hello there" ] ] && echo "True" || echo "False"
+[ [ 1 -ne 2 ] -a [ [ -z "hello there" ] ] && echo "True" || echo "False"
+[ 1 -ne 2 -a -z "hello there" ] && echo "True" || echo "False"
+[ 1 -ne 2 ] && echo "True" || echo "False"
+actfoo
+alsamixer
+anki
+asntuhasu
+awesome -v
+awk CCdata_2023-10-27.csv 
+awk -F "," '/ClosingBalance/ {print}' CCdata_2016-10-27.csv
+awk -F "," '{print $0}' CCdata_2016-10-27.csv 
+awk -F "," '{print $0}' CCdata_2016-10-27.csv | grep Closing
+awk -F "," '{print $0}' csv98238may6all.csv 
+awk -F ":" '{print $1}' $PATH
+awk -F ":" '{print $1}' "hi my name is whaaa"
+awk -F "," '{print $5}' csv98238may6all.csv 
+awk -F "," '{print $5}' csv98238may6all.csv | sort | uniq
+awk -F "," '{print $5}' csv98238may6all.csv | sort | uniq | wc
+awk -F "," '{print $5}' csv98238may6all.csv | uniq
+awk -F "," '{print $5}' csv98238may6all.csv | uniq -u | sort
+awk -F "," '{print $5}' csv98238may6all.csv | uniq -u | wc
+awk -F "," '{print $5}' csv98238may6all.csv | uniq | wc
+awk -F "," '{print $5}' csv98238may6all.csv | wc
+awk -F "," '{print $NF}' csv98238may6all.csv 
+back
+Bank_Statement_Parser/
+bash --version
+bind -v
+bind -v | grep keymap
+btrfsck
+cat CCdata_2023-10-27.csv | awk -F ","
+cat CCdata_2023-10-27.csv | awk -F "," '{print $1 $2}'
+cat .dotfiles/things_to_install.txt 
+cat /etc/hostname 
+cat /etc/hostname | tr '\n' '_'
+cat /etc/os-release 
+cat id_ed25519.pub 
+cat .ssh/id_ed25519.pub 
+cat summer_2024_swim_sched.py 
+cat temp.txt 
+cat temp.txt | wc -m
+cat ./volume_up..sh
+cat ./volume_up.sh
+cat ./volume_up.sh | grep SINK
+cat ./volume_up.sh | grep SINK=)
+cd 
+cd ..
+cd .. 
+cd ../
+cd ../..
+cd ../../..
+cd ../../../..
+cd /
+cd ~
+cd..
+cd $CODESPACE/
+cd \$RECYCLE.BIN/
+cd $XDG_CONFIG_HOME/
+cd $XDG_RUNTIME_DIR/
+cd 0.\ Being\ Sorted/
+cd  0.Sorting/
+cd ../0.Sorting/
+cd 0.Sorting/
+cd 1.\ Academic/
+cd 2017
+cd 2.\ Books/
+cd 3.\ Music/
+cd 4.\ Pictures/
+cd 5.\ Time-Keeping\ Files/
+cd 5.Time-Management/
+cd 6
+cd 6.Entertainment/
+cd 6.\ Entertainment\ Stuff/
+cd 6.Entertainment/Watched/
+cd 7.Documents/
+cd 7.Financial/
+cd 7.\ Important\ Files\ \&\ Documents/
+cd 8.\ 
+cd 8.\ Helpul\ Software/
+cd 8.\ Personal\ Stuff/
+cd 8._Personal_Stuff/
+cd 9.Stuff/
+cd 9.\ To\ be\ Sorted/
+cd 9._To_be_Sorted/
+cd 9.\ To\ be\ Sorted/Transport''''
+cd 9.\ To\ be\ Sorted/Transport4/Documents/Accounting/RBC\ eStatements/Un-accounted/
+cd A0_ML_course_content/
+cd Adulting/
+cd Adult_Responsibilities/
+cd aminn_do
+cd aminn_documents/
+cd aminn_stuff/
+cd anki/
+cd ~/Archive/
+cd ARCHIVES/
+cd Arch_Temp/
+cd awesome/
+cd Bank_estatements/
+cd Bank_Statement_Parser/
+cd Bank_Stuff/
+cd beautiful
+cd bin/
+cd Blank_Code_Samples/
+cd Books/
+cd Build_a_Website/
+cd Build_a_Website/Images/
+cd ~/builds/
+cd builds/
+cd ~/builds/anki/src/anki-23.12.1/qt/aqt
+cd .cargo
+cd CC_
+cd CC_MetaData_CSVs/
+cd CC_Statements/
+cd CC_Statements/la
+cd cd lua/
+cd Chat_GPT_Archive/
+cd code
+cd Coding/
+cd Coding_Samples/
+cd Command_Histogram/
+cd Completed\ Anime/
+cd Completed_Anime/
+cd completions/
+cd .con
+cd .conf
+cd .config/
+cd ~/.config/
+cd ../.config/awesome/
+cd .config/awesome/
+cd .config/awesome/Lyapunov.jpg 
+cd .config/dconf/
+cd .config/.dotfiles/nvim/
+cd .config/nvim/
+cd .config/nvim/lua/
+cd .config/nvim/lua/Daruman/
+cd .config/procps/
+cd Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ 
+cd Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ && la
+cd creator/.config/
+cd creator/.local/share/nvim/
+cd custom/
+cd custom/s
+cd Daruman/
+cd De
+cd default/
+cd ../Desktop/
+cd ~/Desktop/
+cd Desktop
+cd Desktop/
+cd ~/Desktop/Coding/
+cd Desktop/Coding/
+cd Desktop/Coding/Fintrack_Project/Parser/
+cd Desktop/Coding/ML_Course_Stuff/
+cd Desktop/Coding/PDF_Parser/
+cd Desktop/Coding/Scripts/
+cd Desktop/Coding/.venv/
+cd Desktop/exposure/
+cd Desktop/Final_Lenovo_Transfer/
+cd Desktop/Final_Lenovo_Transfer/Adulting/
+cd Desktop/Personal/Arch_Temp/
+cd Desktop/Personal/to_be_sorted/Arch_Temp/
+cd Desktop/TRANSPORT/
+cd Desktop/TRANSPORT/0.Sorting/Transport4/Coding/Coding/
+cd dls/
+cd doc/
+cd docs/
+cd dot
+cd .dotfiles/
+cd ../Downloads/
+cd ~/Downloads/
+cd Downloads/
+cd Draken_Nier/
+cd dtop/
+cd en
+cd /etc/
+cd /etc/bash.bashrc 
+cd /etc/default/
+cd /etc/environment 
+cd /etc/shadow
+cd /etc/X11/
+cd exposure/
+cd Filled-Out_Code_Samples/
+cd ../Final_Lenovo_Transfer/
+cd Final_Lenovo_Transfer/
+cd Fintrack_Project/
+cd ../Fintrack_Project/Parser/
+cd FinTrackVenv/
+cd garbage/
+cd Ghibli/
+cd Google\ Photos\ \(23\,1\,23\)/
+cd gtk/
+cd HG_Stuff/
+cd home/
+cd htop/
+cd init.lua 
+cd Ishuzoku/
+cd JobSearch_Related/
+cd Journal/
+cd Journal_Entries/
+cd Journalling/
+cd kee
+cd KeePass/
+cd kickstart/
+cd .. la
+cd Labs/
+cd late_HS/
+cd layouts/
+cd lazy/
+cd libreoffice/4/
+cd .links/
+cd Lists/
+cd .local/
+cd local/
+cd .local/share/
+cd lua
+cd lua/
+cd lua/custom/
+cd lua/Daruman/
+cd luanova/
+cd lua/repthry/
+cd Math_Books/
+cd me/
+cd Meh\ Anime/
+cd menubar/
+cd ML_Course_Stuff/
+cd ../ML_Erudition/
+cd ML_Erudition/
+cd /mn
+cd /mnt
+cd /mnt/
+cd mnt/
+cd/mnt
+cd /mnt/7.\ Important\ Files\ \&\ Documents/
+cd /mnt/raskal/
+cd Modular_Resume/
+cd Music/
+cd Notes/
+cd nvim
+cd nvim/
+cd nvim/l
+cd nvim/lua/Daruman/
+cd nvim/lua/Daruman/boku.lua 
+cd Other/
+cd Parser/
+cd PDF_Parser/
+cd per
+cd Per
+cd personal
+cd personal/
+cd ~/Personal/
+cd Personal/
+cd Personal_Notes/
+cd Pictures/
+cd pkg/anki/usr/lib/python3.11/site-packages/
+cd plugins/
+cd q/
+cd Quest/
+cd Quest_Tracker/
+cd Recreation/Entertainment/
+cd recyclebin/
+cd ~/Reorganize/
+cd Reorganize/
+cd Resume/
+cd .. && rmdir *
+cd -s 0.\ Being\ Sorted/
+cd scripts
+cd Scripts/
+cd Seek_Utopia/
+cd self
+cd Self/
+cd Semi-Productive/
+cd shadow
+cd share/
+cd Society/
+cd src/anki-23.12.1
+cd .ssh/
+cd Swim_Schedule_Display/
+cd systemd/
+cd System\ Volume\ Information/
+cd taglist/
+cd Tax_Stuff/
+cd tbs/
+cd tbs/Arch_Temp/
+cd Te
+cd Temp
+cd test/
+cd tf
+cd themes/
+cd titlebar/
+cd tmux
+cd to_be_sorted/
+cd ~/transport/
+cd transport/
+cd Transport/
+cd Transport\'\'\'\'
+cd TRANSPORT/
+cd TRANSPORT/0.Sorting/downloads/
+cd Transport4
+cd Transport/mnt/
+cd TRANSPORT/Music/
+cd /usr/
+cd /usr/bin/
+cd /usr/bin/dircolors
+cd /usr/lib/firefox/
+cd /usr/local/
+cd /usr/local/bin
+cd /usr/local/bin/
+cd /usr/share/
+cd /usr/share/awesome/
+cd usr/share/awesome/lib/
+cd /usr/share/awesome/themes/
+cd usr/share/awesome/themes/
+cd /usr/share/bash-completion/
+cd uuuuuh/
+cd .venv/
+cd Venvzone/
+cd Video_Notes/
+cd vimwiki/
+cd Watched/
+cd webms/
+cd WebScraping/
+cd wee
+cd Weekly\ Call\ Recordings/
+cd Weekly_Call_Recordings/
+cd xorg.conf.d/
+cd .yarn
+chmod 754 compare.sh 
+chmod 755 detect_sh.bin 
+chmod init.lua -x
+chmod u+x spaces_to_underscores.sh 
+chmod -x *
+chmod -x BabyRudin.Nova 
+chmod -x Diary_2018_\(*
+chmod -x Midnight_Crisis.docx 
+chmod +x RBC_Statement_to_CSV.py 
+chmod +x Statements_to_CSVs.py 
+chmod -x test/
+chmod +x volume_up.sh 
+chown creator:creator tmux
+chown creator nvim/
+clear
+CNN_Erudition.py
+code
+./compare.sh iPhone\ Photos/
+./compare.sh Messenger_Media_Photos_\(till_23\,1\,23\)/
+./compare.sh Messenger_Media_Photos_\(till_23\,1\,23\)/New\ folder
+config
+cp -a nvim/ ..
+cp -a nvim ./tmux/
+cp -a tmux/ ..
+cp CC_Statements/2017/Visa\ Statement-8996\ 2017-11-27.pdf .
+cp CC_Statements/Visa\ Statement-8996\ 2023-03-27.pdf 
+cp CC_Statements/Visa\ Statement-8996\ 2023-03-27.pdf .
+cp default/ ./personal
+cp /etc/xdg/awesome/rc.lua ./awesome/
+cp My_man.md temp.txt
+cp PasswordsNew.key ~/Downloads/
+cp -r default/ ./personal
+cp Resume\ Draft.pdf ./Resume.pdf
+cp -r Fintrack_Project/ ../Coding/
+cp Rozanov.pt  ~/Downloads/
+cp -r PDF_Parser/ ../Coding/
+cp Secondary_PE_Teacher_-_Markham,_ON_-_Indeed.com.html S_PE_tags.txt
+cp spaces_to_underscores.sh .
+cp spaces_to_underscores.sh ./dspaces_to_underscores.sh
+cp /usr/local/Rozanov.pt /mnt/
+cp Visa\ Statement-8996\ 2023-10-27.pdf ~/Downloads/
+cp volume_up.sh ./volume_down.sh
+cp volume_up.txt ./volume_up.sh
+d
+D
+date
+date -1
+date | awk '{print $6}'
+date -d
+date -d "3 hours ago"
+date -d earlier
+date -d hour
+date -d hour ago
+date -d hourago
+date EDT
+datetimectl
+date --version
+dconf
+deactivate
+./detect.sh 
+df
+df 
+df -h
+df -h | awk 'BEGIN{FS=" "; OFS="   "} {print $1 $5 $2}'
+df -h | awk 'BEGIN{FS=" "; OFS=":"} {print $1 $5 $2}'
+df -h | awk 'BEGIN{FS=" "; OFS=":"} {print $1,$5,$2}'
+df -h | awk 'BEGIN{FS=" "; OFS="     \t"} {print $1,$5,$2}'
+df -h | awk 'BEGIN{FS=" "; OFS="   \t"} {print $1,$5,$2}'
+df -h | awk 'BEGIN{FS=" "; OFS="\t"} {print $1 $5 $2}'
+df -h | awk 'BEGIN{FS=" "; OFS="\t"} {print $1,$5,$2}'
+df -h | awk 'BEGIN{FS="[ ]"; OFS="\t"} {print $1 $5 $2}'
+df -h | awk 'BEGIN{FS=' '; OFS="\t"} {print $1 $5 $2}'
+df -h | awk 'BEGIN{FS="\s"; OFS="\t"} {print $1 $5 $2}'
+df -h | awk 'BEGIN{FS="[ |\t]"; OFS="\t"} {print $1 $5 $2}'
+df -h | awk 'length($5) <=2'
+df -h | awk 'length($5) <2'
+df -h | awk 'length($5) >2'
+df -h | awk '{print $0}'
+df -h | awk '{print $1 $5 $2}'
+df -h | awk '{print $2+$3}'
+df -h | awk '{print $2+$3==$4}'
+df -h | awk '{print $4+$3 " " $2}'
+df -h | awk '{print $4+$3 $2}'
+df -h | awk '{print $4+$3-$2}'
+df -h | awk '{print $4+$3==$2}'
+df -h | awk '{print $NF}'
+df -h | awk '{print NF}'
+df -i
+diff ** **
+diff default/theme.lua gtk/theme.lua 
+diff dspaces_to_underscores.sh /usr/local/bin/dunquote-ify.sh 
+diff Fintrack_Project Fintrack_Project2
+diff Fintrack_Project/Parser/ PDF_Parser/
+diff iPhone_stuff/Actual_pics_\(needs_edit\)/IMG_0366.JPG IPhone_pics_\(2015-2018\)_can_just_delete/2018/2018-03/IMG_2012.JPG 
+diff iPhone_stuff/ IPhone_pics_\(2015-2018\)_can_just_delete/
+diff JuditCoaching JuditCoaching_-_Copy/
+diff /mnt/raskal/.config/htop/htoprc .config/htop/htoprc 
+diff /mnt/raskal/.config/neofetch/config.conf .config/neofetch/config.conf 
+diff nvim/ .dotfiles/nvim/
+diff nvim/lazy-lock.json .dotfiles/nvim/lazy-lock.json 
+diff old_init.lua ../.dotfiles/nvim/init.lua 
+diff PDF_Parser/ Fintrack_Project/Parser/
+diff personal/ default/
+diff -q Fintrack_Project Fintrack_Project2
+diff ./Resume/ ../7.\ Important\ Files\ \&\ Documents/Resume/temporary/
+diff -s Fintrack_Project Fintrack_Project2
+diff spaces_to_underscores.sh /usr/local/bin/unquote-ify.sh 
+diff state0.txt state1.txt 
+diff tmux/tmux.conf ../tmux/tmux.conf 
+diff -v iPhone_stuff/ IPhone_pics_\(2015-2018\)_can_just_delete/
+diff <(which nvim) <(echo $EDITOR)
+diff WritingBenefits_with_Instructions_September_2016_02.pdf WritingBenefits_with_Instructions_September_2016_02\ \(1\).pdf 
+diff xrand_b4.txt xrand_ar.txt 
+diff -y Fintrack_Project Fintrack_Project2
+diff -y PDF_Parser/ Fintrack_Project/Parser/
+dircolors -b ~/.dircolors
+dmesg
+dmesg 
+dot
+dot && cd ..
+dot && cd lua
+dspaces_to_underscores.sh .
+dspaces_to_underscores.sh late_HS/
+dspaces_to_underscores.sh temp/
+[ -d Transport/ ] && echo "gah"
+du
+du ..
+du -0
+du -0 ..
+du -1 ..
+du -a Archives/
+du --apparent-size .bashrc
+du --apparent-size .bashrc 
+du -apparent-size .bashrc 
+du Archives/
+du .bashrc 
+du -B .bashrc 
+du -c .bashr
+du -c .bashrc 
+du -d1
+du -d1 -h
+du -d1 -h --apparent-size
+du -d2
+du -h --apparent-size .bashrc
+du matplotlib/
+dunquote-ify.sh .
+dunquote-ify.sh 3.\ Music/
+dunquote-ify.sh 6
+dunquote-ify.sh 6.\ Entertainment\ Stuff/
+dunquote-ify.sh Adult_Responsibilities/
+dunquote-ify.sh Articles/
+dunquote-ify.sh Best_Version_of_Me/
+dunquote-ify.sh Coding\ Samples/
+dunquote-ify.sh Completed_Anime/
+dunquote-ify.sh Diary/
+dunquote-ify.sh Finance_Stuff/
+dunquote-ify.sh General_LaTeX_docs/
+dunquote-ify.sh Ghibli/
+dunquote-ify.sh Glebe/
+dunquote-ify.sh How_I_spent/
+dunquote-ify.sh iPhone_stuff/
+dunquote-ify.sh Labs/
+dunquote-ify.sh legal/
+dunquote-ify.sh Lists/
+dunquote-ify.sh Mastering_physics_stuff/
+dunquote-ify.sh Motivation/
+dunquote-ify.sh My_Thoughts/
+dunquote-ify.sh Non-Urgent/
+dunquote-ify.sh OSAP/
+dunquote-ify.sh Rarely_used-dead_documents/
+dunquote-ify.sh Self/
+dunquote-ify.sh Self-Analyzing/
+dunquote-ify.sh Self-Help_Stuff/
+dunquote-ify.sh Self-Improvement/
+dunquote-ify.sh Travelling_Stuff/
+dunquote-ify.sh ../University_Docs/UW_T2202A/
+dunquote-ify.sh Watched/
+dunquote-ify.sh WOCH/
+du procps/
+du -s -B1 --apparent-size Archives/
+du -s -B1 --apparent-size .bashrc
+du -s -B1-h  --apparent-size .bashrc
+du -s -B1 -h --apparent-size .bashrc
+du -s .bashrc 
+du -s -Bk --apparent-size Archives/
+du -s -BK --apparent-size Archives/
+du -s -BK --apparent-size .bashrc
+du -s -BM --apparent-size Archives/
+du -s -BM --apparent-size .bashrc
+du -sh --apparent-size .bashrc
+du -sh -B1 --apparent-size Archives/
+du -sh -B1 --apparent-size .bashrc
+duz
+duz .
+duz ..
+duz aminn_stuff/
+duz .bashrc 
+duz .cargo/
+duz .config/
+duz -d1
+duz Desktop/
+duz Documents/
+duz Downloads/
+duz Final_Lenovo_Transfer/
+duz junk/
+duz Pictures/
+duz raskal/
+duz System\ Volume\ Information/
+duz transport/
+echo *
+echo **
+echo $#
+echo "${${!test}1}"
+echo "$((65536 * 0.75))"
+echo "$((65536 * 3 / 4))"
+echo $BROWSER
+echo $CODESPACE
+echo $DESKTOP_SESSION/
+echo $DISPLAY 
+echo $EDITOR
+echo ${#halleluja}
+echo $HISTFILESIZE
+echo $HISTSIZE
+echo $HISTSIZE 
+echo $HOME/.config/.dotfiles/
+echo $HOSTNAME 
+echo $HOSTTYPE 
+echo $NAME
+echo $NE1
+echo $#PATH
+echo ${PATH##*:}
+echo ${PATH##*}
+echo ${PATH##+(?)}
+echo ${PATH##+?}
+echo ${PATH##+}
+echo ${PATH##.}
+echo ${PATH##:}
+echo ${PATH##?}
+echo ${PATH#*:}
+echo ${PATH#*}
+echo ${PATH#+(?)}
+echo ${PATH#+?}
+echo ${PATH#+}
+echo ${PATH#.}
+echo ${PATH#:}
+echo ${PATH#?}
+echo ${PATH#[:]}
+echo ${PATH%%*:}
+echo ${PATH%%:*}
+echo ${PATH%*:}
+echo ${PATH%:*}
+echo ${PATH}
+echo {$PATH}
+echo ${#PATH}
+echo $PATH
+echo $PATH 
+echo ${PATH:5}
+echo ${PATH:5:5}
+echo $PATH | awk 'BEGIN{FS=":"; OFS="\n"} {print $0}'
+echo $PATH | awk 'BEGIN{FS=":"; OFS="\n"} {print $1}'
+echo $PATH | awk 'BEGIN{FS=":"; OFS="\n"} {print $1,$2,$4}'
+echo $PATH | awk -F ":" '{print $1}'
+echo $PATH | awk -F ":" '{print $1 "  " $3}'
+echo $PATH | awk -F ":" '{print $1 "  " $3 "\n" $PATH}'
+echo $PATH | awk -F ":" '{print $1 "  " $3 "\t" $7}'
+echo $PATH | awk -F ":" '{print $1 "  " $3 "\t" $PATH}'
+echo $PATH | wc
+echo $PERSONAL
+echo ${sample}
+"echo ${#sample}"
+echo "${#sample}"
+echo $"{#sample}"
+echo ${"#sample"}
+echo ${#"sample"}
+echo ${#sample}
+echo $sample
+echo $sample 
+echo "$sample, world"
+echo ${SHELL##*/}
+echo ${SHELL##*}
+echo ${SHELL##?}
+echo ${SHELL#*/}
+echo ${SHELL#*}
+echo ${SHELL#?}
+echo ${SHELL%%?}
+echo ${SHELL%*/}
+echo ${SHELL%/*}
+echo ${SHELL%?}
+echo ${#SHELL}
+echo $SHELL
+echo ${SHELL##h}
+echo ${SHELL#h}
+echo $SINK
+echo ${#temp}
+echo $temp
+echo $TERM
+echo $TERM 
+echo ${!test}
+echo $test
+echo "${test1}"
+echo "${!test}1"
+echo "${!test1}"
+echo ${!test1}
+echo ${USER}
+echo ${#USER}
+echo $USER
+echo ${var}
+echo ${var:-hello}
+echo ${var:-no value set}
+echo $VOLNUM1 
+echo $X
+echo $XAUTHORITY 
+echo $XDG_RUNTIME_DIR/
+echo $XDG_SESSION_CLASS 
+echo $XDG_SESSION_DESKTOP/
+echo $XDG_SESSION_ID
+echo $XDG_SESSION_PATH 
+echo $XDG_SESSION_TYPE 
+echo {1,2,3}
+echo 361
+echo "book(){}[].pdf" | sed 's/[\[\(\{]/6/g'
+echo "book(){}[].pdf" | sed 's/[\]\)\}]/6/g'
+echo "don't wanna remake these, so here" >> README.md
+echo *draken*
+echo "hi my name is" | sed 's/ /_'
+echo "hi my name is" | sed 's/ /_/'
+echo "hi my name is" | sed 's/ /_/g'
+echo HISTFILESIZE
+echo * > index.md 
+echo #PATH
+echo {#PATH}
+echo sample
+echo "[Steven_Weinberg]_The_First_Three_Minutes_A_Moder(b-ok.org).pdf" | sed 's/[()]//g'
+echo "[Steven_Weinberg]_The_First_Three_Minutes_A_Moder(b-ok.org).pdf" | sed 's/[\(\)]//g'
+echo "[Steven_Weinberg]_The_First_Three_Minutes_A_Moder(b-ok.org).pdf" | sed 's/[\[\]]//g'
+echo "[Steven_Weinberg]_The_First_Three_Minutes_A_Moder(b-ok.org).pdf" | sed 's/[]//g'
+echo "[Steven_Weinberg]_The_First_Three_Minutes_A_Moder(b-ok.org).pdf" | sed 's/\[//g'
+echo "[Steven_Weinberg]_The_First_Three_Minutes_A_Moder(b-ok.org).pdf" | sed 's/\[\]//g'
+[ -e .config/tmux/tmux.conf ] && echo "symlink followed"
+[ -eq '$XDG_SESSION_TYPE' 'x11' ] 
+[ -e Transport/ ] && echo "gah"
+eval "$(ssh-agent -s)"
+fcitx
+[ -f .config/tmux/tmux.conf ] && echo "symlink followed"
+fdisk /dev/sdc
+fdisk -l
+fdisk -L
+feh
+feh --bg-scale Lyapunov.jpg 
+feh Lyapunov.jpg 
+fg
+find . -anewer Arch_Temp/
+find . -iname *dr.k*
+find . -iname dr.k
+find . -iname dr.k*
+find . -iname dr.x
+find . -iname fintrack
+find . -iname sql*
+find . -name 
+find . -name '* *'
+find . -name *50*
+find . -name *ads
+find . -name .*ads
+find . -name aqt
+find . -name *azy*
+find . -name *.csv
+find .. -name *.csv
+find . -name *d
+find . -name d
+find . -name dotfiles
+find . -name downloads
+find . -name *elescope*
+find . -name *g
+find . -name my_man*
+find . -name *n
+find . -name *.nova
+find . -name *.Nova
+find . -name *oding
+find . -name *.pdf
+find / -name *.png
+find . -name RBC*
+find . -name run
+find . -name *s
+find . -name *s$
+find . -name s$
+find ~ -name '*.sh'
+find ~ -name '*.sh' | grep space
+find . -name \^v*
+find . -name ^v*
+find . -name Venv*
+find . -name vol*
+find . -name *volume*
+find . -name *yapunov*
+find . -newer Arch_Temp/
+find . -newermt "$(date -d "3 hours ago")"
+find . -newermt $(date -d "3 hours ago")
+find . -newermt "$(date -d "3 hours ago")" | nvim
+find -regextype help
+find . -regextype vi -regex ^v.*
+find ~ -type f > arch_files
+./FinTrackVenv/bin/activate
+firefox &
+firefox & 
+fit pull
+flist
+fsblk
+fsck
+fsdisk -l
+fslist
+[ -f Transport/ ] && echo "gah"
+gdisk
+ghc
+git 
+git add .
+git add AllTasks_Draft.md 
+git add Arch_Temp/
+git add .bash*
+git add .bashrc 
+git add .creator\@arch_command_log 
+git add MunkresTopology.kdbx 
+git add tbs/Arch_Temp/my_man.md 
+git add To-Dos.md 
+git branch
+git branch -M main
+git clone git@github.com/Aminkowski
+git clone git@github.com:Aminkowski
+git clone git@github.com:Aminkowski/Advent-of-Code.git
+git clone git@github.com:Aminkowski/Bank_Statement_Parser.git
+git clone git@github.com/Aminkowski/.dotfiles.git
+git clone git@github.com:Aminkowski/.dotfiles.git
+git clone git@github.com:Aminkowski/ML_Erudition.git
+git clone git@github.com:Aminkowski/Personal.git
+git clone git@github.com:Aminkowski/Seek_Utopia.git
+git clone git@github.com:SharminDeveloper/exposure.git
+git clone https://aur.archlinux.org/anki.git
+git clone https://github.com/nvim-lua/kickstart.nvim.git "$XDG_CONFIG_HOME"/nvim
+git commit 
+git commit -m "$(date) regular old syncing"
+git commit -m "$(date) updoot"
+git commit -m "a cleaner version of what I've been using for RBC statements. still need to add a few features"
+git commit -m "added awm stuff"
+git commit -m "added mini.surround 
+git commit -m "added something to the manual $(date)"
+git commit -m "arch files added for now"
+git commit -m "cleaned up bashrc, reincorporated the miniStatusline and planning to add more"
+git commit -m "data backed up"
+git commit -m "did more"
+git commit -m "first arch commit"
+git commit -m "first draft of this off the top of my head"
+git commit -m "I'm so lost lol"
+git commit -m "just modified archfiles as I organized my home"
+git commit -m "just the file renaming stuff for now"
+git commit -m "lots to do, adding to prevent future conflicts. added the volume scripts of arch"
+git commit -m "mozc"
+git commit -m "nvim configurations modularized and modernized with kickstart"
+git commit -m "pretty much done. now just need a program to work with the csvs"
+git commit -m "renamed archives to autocomplete easier"
+git commit -m "routine update of arch_log"
+git commit -m "saving some files"
+git commit -m "terminal time management is a dub"
+git commit -m "the bits of stuff done for cnn"
+git commit -m "the log command is more robust (for linux) now. on arch didn't have hostname command available"
+git commit -m "trying moving all scripts here and symlinking"
+git commit -m "ugh, need to make bash stuff more beautiful, it's all dirty now"
+git config --global init.defaultBranch Main
+git config --global user.email "aminkhadjenouri@gmail.com"
+git config --global user.name "Amin"
+git diff
+git fetch
+git fetch && git status
+git init
+git log
+git pull
+git push
+git push 
+git push -u origin main
+git remote add origin git@github.com:Aminkowski/Scripts.git
+git stat
+git statu
+git statu-
+git status
+git status-
+./git_sync
+./git_sync 
+git sync
+git_sync
+git_sync 
+git --version
+h
+hello
+hist
+history
+history 
+history 1
+history > command_list_using_history.txt 
+history | nvim
+/home/creator/builds/anki/pkg/anki/usr/lib/python3.11/site-packages/a
+hostname
+htop
+hwclock --show
+hwclock -v --show
+I think"
+journal
+keepassxc &
+kill 1929
+kill 533
+kill firefox
+kjkj
+l
+la
+la 
+la ..
+la ../..
+la /
+la ~
+la=
+LA
+la '$RECYCLE.BIN'/
+la 0.Archive/
+la 0.\ Being\ Sorted/
+la 0.Rarely_used-dead_documents/
+la 1.Academic/
+la ../1.\ Academic/
+la 1.\ Academic/
+la ../1.\ Academic/temp/
+la 2.Books/
+la 2.Self-Help_Stuff/
+la 3.Music/
+la 3.\ Music/
+la 4.Pictures/
+la 5.Time-Management/
+la 6.Entertainment/
+la 7.\ Important\ Files\ \&\ Documents/
+la 7._Important_Files_\&_Documents/
+la 911Interpreters_Stuff/
+la 9.Stuff/
+la 9.\ To\ be\ Sorted/
+la A0_ML_course_content/
+la AARCHIVES/
+la ../Adulting/
+la Adulting/
+la Adulting/BlueMountainVouchers.pdf 
+la Adulting/Financial/
+la ../Adulting/Resumes/
+la Adulting/Society/
+la Adult_Responsibilities/
+la aminn_documents/
+la aminn_stuff/
+la aqt
+la aqt | grep run
+la Arch
+la ~/Archive/
+la ARCHIVES/
+la ARCHIVES/Mastering_physics_stuff/
+la Arch_Temp/
+la Articles/
+la awesome/
+la Bank_Stuff/
+la .bashrc 
+la Beastars/
+la Best_Version_of_Me/
+la bin/
+la Books/
+la Books/Articles/
+la builds/
+la .c
+la cache/
+la CC_MetaData_CSVs/
+la CC_Transaction_CSVs/
+la && cd .. && la && rmdir * && cd .. && la
+la Coding/
+la Coding/Fintrack_Project/
+la Coding\ Samples/
+la .config/
+la .config/nvim/
+la Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ 
+la custom/
+la custom/plugins/
+la default/
+la Delete/
+la des
+la Desktop/
+la Di
+la Diary/
+la DO
+la doc/
+la Documents/
+la .dotfiles/
+la downloads/
+la Downloads/
+la Draken_Nier/
+la Dropbox/
+la Emotion_comprenehnsion/
+la EMOTIONS/
+la EMOTIONS/Journalling/
+la /etc/xdg/awesome/
+la Final_Lenovo_Transfer/
+la Finance\ Stuff/
+la Finance_Stuff/
+la Financial/
+la Fintrack_Project
+la Fintrack_Project/
+la Fintrack_Project/Parser/
+la FinTrackVenv/
+la firefox
+la General_LaTeX_docs/
+la Ghibli/
+la git
+la .github/
+la Glebe/
+la | grep )
+la | grep \)
+la | grep aug
+la | grep Aug
+la | grep Aug   2
+la | grep Aug  2
+la | grep Aug | grep 2
+la | grep Aug | grep 2 | grep 10:
+la | grep Aug | grep 2 | grep 9:
+la | grep CNN
+la | grep config
+la | grep dir
+la | grep draken
+la | grep fig
+la | grep odi
+la gtk-3.0/
+la HG_guides/
+la How_I_spent/
+la htop
+la htop/
+la include/
+la IPhone_pics_\(2015-2018\)_can_just_delete/
+la IPhone_pics_\(2015-2018\)_can_just_delete/2018/2018-02/
+la iPhone_stuff/
+la iPhone_stuff/Actual_pics_\(needs_edit\)/
+la Journal/
+la Journalling/
+la JuditCoaching
+la JuditCoaching_-_Copy/
+la KeePass/
+la kickstart/
+la kickstart/plugins/
+la Labs/
+la late_HS/
+la layouts/
+la League\ of\ Legends/
+la League\ of\ Legends/Replays/
+la legal/
+la lib
+la libreoffice/
+la LibreWolf\ Portable/
+la Lists/
+la .lo
+la .local/
+la local/
+la .local/share/
+la .local/share/nvim/
+la .local/state/
+la .local/state/nvim/
+la lua/
+la lua/kickstart/plugins/
+la lua/luanova/
+la lua/repthry/
+la Mastering_physics_stuff/
+la matplotlib/
+la me
+la /media/
+la ../Memes/
+la Messenger_Media_Photos_\(till_23\,1\,23\)/
+la ML_Course_Stuff/
+la ML_Erudition/
+la /mnt
+la /mnt/
+la mnt/
+la /mnt/aminn_stuff/Desktop/
+la /mnt/aminn_stuff/Desktop/LibreWolf\ Portable/
+la Motivation/
+la Music_Theory/
+la neofetch
+la Non-STEM/
+la Non-Urgent/
+la ../nvim/
+la nvim/
+la nvim/renamed/
+lao
+la old_init.lua 
+la opt/
+la OSAP/
+la PDF_Parser/
+la ../Personal_Notes/
+la Personal_Notes/
+la Personal_Notes/Journal/
+la Personal_Notes/Journal/diary
+la Personal_Notes/Journal/Diary
+la ../Personal_Notes/Lists/
+la Personal_Notes/Lists/
+la Physics/
+la Pictures/
+la PMATH_365/
+la PMATH_365/Assignments/
+la PMATH_365/Notes/
+la PMATH_365/Solns/
+la PowerToys/
+la Practical/
+la pro
+la proc
+la py
+la __pycache__/
+la Quest/
+la Rarely_used-dead_documents/
+la raskal/
+la raskal/Archives/
+la Recreation/
+la Recreation/Entertainment/
+la ../Recreation/Travelling_Stuff/
+la Reorganize/
+la Resume
+la Resume/
+la Security/
+la Self-
+la Self/
+la Self-Analyzing/
+la Self-Help_Stuff/ 2.Self-Help_Stuff/
+la Self-Help_Stuff/ Self-Help_Stuff/
+la ../Semi-Productive/
+la Semi-Productive/
+la share/
+la sky/
+la srv/
+la .ssh/
+la state/
+la String_Test/
+la Subjective/
+la System\ Volume\ Information/
+la taglist/
+la Tax_Stuff/
+la tbs/
+la tbs/Arch_Temp/
+la | tee temp.txt
+la temp/
+la temporary/
+la temporary/Resume/
+la Tests/
+la .. >> things_to_install.txt 
+la tmux
+la tmux/
+latr`
+la transport/
+la Travelling_Stuff/
+la ../University_Docs/
+la ../University_Docs/UW_T2202A/
+la /usr/
+la /usr/bin/
+la /usr/bin/ | grep python
+la /usr/bin/local
+la /usr/local/
+la usr/local/
+la /usr/local/bin/
+la usr/local/share/
+la /usr/share/
+la /usr/share/ | grep kee
+la /usr/share/keepassxc/
+la UW_T2202A/
+la var/
+la .vim
+la vimwiki/
+la Wallpaper-ish/
+la Watched/
+la | wc -l
+la Weekly_Call_Recordings/
+la WOCH/
+la xresources/
+la .yarn
+la .yarn/bin/
+la zenburn/
+ldd
+ldd "$(command -v sshd)"
+ldd $(which sshd)
+ldd $(which sshd) | grep liblzma
+less explicit_packages.txt 
+less firefox
+less .mozilla/
+less PKGBUILD 
+less SQL_man.md 
+libreoffice
+libreoffice 
+libreoffice Midnight\ Crisis.docx 
+link
+links
+links &
+ln -s .config/.dotfiles/.bash_aliases 
+ln -s .config/.dotfiles/.bashrc .
+ln -s ../Desktop/ .
+ln -s ~/Desktop/Coding/Scripts/* .
+ln -s ../.dotfiles/awesome/rc.lua .
+ln -s .dotfiles/nvim/ .
+ln -s .dotfiles/tmux/ .
+lo
+loa
+localectl
+loginctl 
+loginctl terminate-user 
+loginctl terminate-user creator
+lra
+ls
+ls 
+ls ~
+ls $HOME/.config/.dotfiles/
+ls -1
+ls -1a
+ls -1a | wc -l
+lsa
+ls -A
+ls -Ah
+ls -Al
+ls -Al ~
+ls -a | wc -l
+lsblk
+lsblk 
+lsblk -l
+ls --full-time
+ls -g
+ls -gA
+ls -gAl
+ls -go
+ls -goh
+ls -l
+ls -l ~
+ls -lA
+ls -lA Final_Lenovo_Transfer/
+ls -lA Final_Lenovo_Transfer/Adulting/
+ls -lA Final_Lenovo_Transfer/Adulting/Financial/
+ls -l /bin/sh
+ls -lO
+ls -n
+ls -o
+lspci -nhk | nvim
+lspci -nnk | nvim
+ls -s .dotfiles/tmux/ .
+lua
+lua test.lua 
+lua -v
+lua --version
+lynx
+m
+makepkg -si
+./man
+man [
+man awk
+man bash
+man .bashrc
+man bashrc
+man bind
+man chown
+man cp
+man cran
+man date
+man dconf
+man diff
+man du
+man feh
+man find
+man find 
+man git
+man git fetch
+man hexdump
+man history
+man keyboard
+man less
+man ln
+man localectl
+man loginctl
+man ls
+man lspci
+man mkinitcpio
+man more
+man mount
+man mv
+man pacman
+man pactl
+man sed
+man sh
+man sort
+man sum
+man systemd
+man tee
+man tr
+man uniq
+man unlink
+man wc
+man xdconf
+man xdg-open
+mkdir 
+mkdir A0_ML_course_content
+mkdir A0_ML_course_content/Weekly_Call_Recordings
+mkdir AARCHIVES
+mkdir Archive
+mkdir ARCHIVES
+mkdir Arch_Temp
+mkdir awesome
+mkdir Bank_Statement_Parser
+mkdir Builds
+mkdir CC_MetaData_CSVs
+mkdir CC_Transaction_CSVs
+mkdir Chat_GPT_Archive
+mkdir Coding
+mkdir Command_Histogram
+mkdir Delete
+mkdir Desktop
+mkdir ~/Desktop/Scripts
+mkdir Documents
+mkdir Draken_Nier
+mkdir EMOTIONS
+mkdir FINANCE
+mkdir Financial
+mkdir foo
+mkdir JobSearch_Related
+mkdir Journal
+mkdir Journalling
+mkdir KNOWLEDGE
+mkdir lazy
+mkdir me
+mkdir ML_Course_Stuff
+mkdir Modular_Resume
+mkdir OLD_DOCS
+mkdir -p lua/repthry/core
+mkdir Recreation
+mkdir Reorganize
+mkdir Swim_Schedule_Display
+mkdir temp
+mkdir temporary
+mkdir test
+mkdir Transport
+mkdir University_Docs
+mkdir UW_endowment_docs
+mkdir UW_T2202A
+mkdir WebScraping
+mkfs.ext4 /dev/sdc1
+mkinitcpio
+mn arch_files.md arch_files
+mount /dev/sdc1 /mnt
+mozc
+mupdf
+mupdf 2016/Visa\ Statement-8996\ 2016-10-27.pdf 
+mupdf 2016/Visa\ Statement-8996\ 2016-11-28.pdf 
+mupdf 2016/Visa\ Statement-8996\ 2016-12-28.pdf 
+mupdf 2017/Visa\ Statement-8996\ 2017-02-27.pdf 
+mupdf 2017/Visa\ Statement-8996\ 2017-07-27.pdf 
+mupdf 2017/Visa\ Statement-8996\ 2017-08-28.pdf 
+mupdf 2020/Visa\ Statement-8996\ 2020-07-27.pdf 
+mupdf 2022/Visa\ Statement-8996\ 2022-06-27.pdf 
+mupdf ../CC_Statements/hVisa Statement-8996 2023-04-27.pdf
+mupdf Downloads/Chequing\ Statement-3886\ 2024-02-14.pdf 
+mupdf Downloads/Chequing\ Statement-3886\ 2024-03-14.pdf 
+mupdf Visa\ Statement-8996\ 2023-04-27.pdf 
+mupdf Visa_Statement-8996_2023-10-27.pdf 
+mv * ..
+mv . ..
+mv ./* ..
+mv '$RECYCLE.BIN'/ garbage
+mv '$RECYCLE.BIN'/ recyclebin
+mv 0.\ Being\ Sorted/ 0.Sorting
+mv 1993_-_In_Utero_\@320/ 1993-In_Utero
+mv 1993\ -\ In\ Utero\ \@320/ 1993-In\ Utero\ 320/
+mv 1.\ Academic/ 1.Academic
+mv 1.Academic/ Academic/
+mv 1.\ Academic/ Academics
+mv 1._ones_song_with_lyrics_comrades_songcompanthem_gabriel_abdiel_drakengard_3_in_game_ost.mp3 Draken_Nier/
+mv 1.Self-Analyzing/ Journal/
+mv 2019_UW_T2202.pdf ../University_Docs/UW_T2202A/
+mv 2.\ Books/ 2.Books
+mv 2.Books/ Books/
+mv 2.\ Books/ Books
+mv 2.Self-Help_Stuff/ Journal/
+mv 2._twos_song_with_lyrics_leap_wishesblissade_egregori_raphael_extended_drakengard_3_ost.mp3 Draken_Nier/
+mv 2_UW_T2202A.pdf ../University_Docs/UW_T2202A/
+mv 3* Draken_Nier/
+mv 3.\ Music/ 3.Music
+mv 3.Music/ Music/
+mv 3.\ Music/ Music
+mv 3.Self-Improvement/ Journal/
+mv 3_UW_T2202A.pdf ../University_Docs/UW_T2202A/
+mv 4._fours_song_with_lyrics_upcoming_battleprevolt_armaros_zophiel_drakengard_3_in_game_ost.mp3 Draken_Nier/
+mv 4.\ Pictures/ 4.Pictures
+mv 4.Pictures/ Pictures/
+mv 4.\ Pictures/ Pictures
+mv 4_UW_T2202A.pdf ../University_Docs/UW_T2202A/
+mv 5_Centimeters_Per_Second_\(2007\)_\[1080p\,BluRay\,x264\]_-_THORA.mkv 5_centimeters_per_second.mkv
+mv 5._fives_song_with_lyrics_the_rising_foolexvulsion_phanuel_galgaliel_extended_drakengard_3_ost.mp3 Draken_Nier/
+mv 5.\ Time-Keeping\ Files/ 5.Time-Management
+mv 5.\ Time-Keeping\ Files/ Lists
+mv 5.Time-Management/ Time-Management/
+mv 6.Entertainment/ Entertainment/
+mv 6.\ Entertainment\ Stuff/ 6.Entertainment
+mv 6.\ Entertainment\ Stuff/ Entertainment
+mv 7.Documents/ 0.Sorting/
+mv 7.Financial/ 7.Documents
+mv 7._Important_Files_\&_Documents/ 7.Financial
+mv 8._Helpul_Software/ 8.Software
+mv 8._Personal_Stuff/ 9.Stuff
+mv 8.\ Personal\ Stuff/ Journal
+mv 8.Software/ 0.Sorting/
+mv 911Interpreters_Stuff/ Adulting/
+mv 911Interpreters_Stuff/ ~/Archive/
+mv 9.Stuff/ 0.Sorting/
+mv 9._To_be_Sorted/ 0.\ Being\ Sorted/
+mv abstract-science-fiction-futuristic-background-with-red-blue-neon-lights.jpg scifi.jpg
+mv Adulting/ ~/Archive/
+mv Amin_Application_Form.pdf Amin_Application_Form_WOCH.pdf
+mv Amin\ Application\ Form.pdf WOCH_form_2017.pdf
+mv Amin_Application_Form_WOCH.pdf University_Docs/
+mv Aphex_Twin_-_Avril_14th_\(Piano_Cover\).mp4 Aphex_Twin_-_Avril_14th_Piano_Cover.mp4
+mv Aphex_Twin_-_Avril_14th_\(Piano_Cover\).mp4 Aphex_Twin_-_Avril_14th_Piano_Cover.mp4 
+mv Apr_2020_SSR_TSRPT.pdf ../University_Docs/
+mv arch_files arch_files.md
+mv arch_files Desktop/Personal/
+mv arch_files.md arch_files
+mv arch_files tbs/
+mv ../Archive/ ../0.Archive/
+mv BabyRudin.Nova Rozanov.pt
+mv bash_exports bash_exports.sh
+mv bash_prompt bash_prompt.sh
+mv .bashrc transport/
+mv best_of_NieR_Automata_OST.mp3 Draken_Nier/
+mv Best_Version_of_Me/ EMOTIONS/
+mv Best_Version_of_Me/ Motivation/
+mv Blissful_Death_Vocals_Nier_OST.mp4 Draken_Nier/
+mv Builds/ builds
+mv Chat_GPT_Archive.md Linkedin_Profile_Quick_Setup.md
+mv Classes_f2020.png ..
+mv Classes_f2020.png Mastering_physics_stuff/
+mv CNN_Erudition.py CNN_Erudition.txt
+mv CNN_Erudition.txt CNN_Erudition.py
+mv CNN_Erudition.txt Desktop/Coding/ML_Erudition/
+mv Coding_Samples/ ~/Downloads/A0_ML_course_content/
+mv Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ /Weekly\ Call\ Recordings/ML-L1-8PM\ \(Part\ 2\).mp4 ./A0_ML_course_content/Weekly_Call_Recordings/
+mv Daruman/ lua/
+mv Dec_1.docx EMOTIONS/
+mv Dec_1.docx Journal/
+mv * ~/Desktop/Coding/
+mv Desktop/Coding/ML_Erudition/CNN_Erudition.py .
+mv ~/Desktop/diary_2018_* .
+mv detect_sh.bin detect.sh
+mv diary_2018_* Desktop/
+mv Diary_2018_\(Jan-Sept\).docx Diary_2018_Jan-Sept.docx 
+mv Diary_2018_\(* Journalling/
+mv Diary_2018_\(Oct-Dec\).docx Diary_2018_Oct-Dec.docx 
+mv Did_You_Forget_Again_\(sentimental_value\).txt Journal/
+mv Did_You_Forget_Again_\(sentimental_value\).txt ../Personal_Notes/
+mv Documents/ ..
+mv Documents/ aminn_documents
+mv DoneManifesto.png Memes/
+mv Downloads/abstract-science-fiction-futuristic-background-with-red-blue-neon-lights.jpg $CODESPACE/Build_a_Website/Images/
+mv Downloads/ aminn_Dowloads
+mv Downloads/ downloads
+mv Downloads/* downloads/
+mv Downloads/himitsu /mnt/
+mv ~/Downloads/Rozanov.pt .
+mv downloads/ transport/0.Sorting/
+mv Drakengard_3_OST_~_33_-_Chihiro_Onitsuka_-_This_Silence_is_Mine.mp4 Draken_Nier/
+mv drivetest_codes.txt Desktop/
+mv dunquote-ify.sh 
+mve My_Thoughts/ EMOTIONS/
+mv Entertainment/ Recreation/
+mv explicit_packages.txt Personal/
+mv Final_Lenovo_Transfer/ Desktop/
+mv * ../FINANCE/
+mv Finance_Stuff/ tf
+mv Fintrack_Project2/ ~/Archive/
+mv Fintrack_Project/ Fintrack_Project2/
+mv '[Free-scores.com]_chopin-frederic-valse-opus-69-1-587.pdf' 'chopin-frederic-valse-opus-69-1-587.pdf' 
+mv \[Free-scores.com\]_chopin-frederic-valse-opus-69-1-587.pdf chopin-frederic-valse-opus-69-1-587.pdf 
+mv General_LaTeX_docs/things.txt Sentimental_Uni_Stuff/
+mv Gestalt-Replicant_OST.mp4 Draken_Nier/
+mv gkhdigkdmicimkdcgmrcd.xfd.mp4 tekkonkinkreet.mp4
+mv Goal_Nodes.txt goalnodes.txt
+mv goalnodes.txt Personal/
+mv Gorillaz_-_Demon_Days_\(Full_Album\).mp3 Gorillaz_-_Demon_Days_Full_Album.mp3 
+mv Hands-on_Intro_to_Machine_Learning_-_Schedule_and_Course_Description.docx ~/Downloads/A0_ML_course_content/
+mv Have_a_destination.docx EMOTIONS/
+mv Have_a_destination.docx Motivation/
+mv Health_Card_Scan_2017-1-25.pdf Documents/
+mv Health_card_scan.pdf ARCHIVES/
+mv Health_card_scan.pdf OLD_DOCS/
+mv HG_Stuff/ Personal_Notes/
+mv /home/creator/hi\ my\ name\ is\ slim.txt /home/creator/hi\ my\ name\ is\ slim.md
+mv How_I_spent/ Time-Tracking
+mv H\&R_Block_Donations_page_filled.pdf HnR_Block_Donations_page_filled.pdf 
+mv hs_cs_course/ KNOWLEDGE/
+mv *iary_2018_* Journal/
+mv init.lua old_init.lua 
+mv Intro_Slides_-_Hands-On_Intro_to_Machine_Learning.pptx ~/Downloads/A0_ML_course_content/
+mv IPhone_pics_\(2015-2018\)_can_just_delete/ iPhone_2015-2018_pics_to_delete
+mv Jan_2020_SSR_TSRPT.pdf ../University_Docs/
+mv * JobSearch_Related/
+mv Jojo.Rabbit.2019.avi Jojo_Rabbit_2019.avi 
+mv Jojo.Rabbit.2019.DVDScr.XVID.AC3.HQ.Hive-CM8.avi Jojo.Rabbit.2019.avi 
+mv Journalling/ EMOTIONS/
+mv Journal/ Personal_Notes
+mv JuditCoaching/ ..
+mv KeePass/ ..
+mv KeePass/ 7.Financial/
+mv Lab_1_-_Feed_Forward_Neural_Networks Lab1-FeedForwardNeuralNetworks 
+mv Lab_2_-_CNNs Lab2-CNNs 
+mv Labs/ ~/Downloads/A0_ML_course_content/
+mv la .config/
+mv learnlua.lua ../Desktop/
+mv "'Legal' Documents"/ ..
+mv "'Legal'_Documents"/ legal
+mv "'Legal' Documents"/ tempname
+mv Less_Used_Docs/ AARCHIVES/
+mv Linkedin_Profile_Quick_Setup.md Chat_GPT_Archive/
+mv Lists/Diary/ Personal_Notes/Journal/
+mv Lyapunov.jpg ../.config/awesome/
+mv March_31_2024_Bucket_list.txt Personal/
+mv Mastering_physics_stuff/ ARCHIVES/
+mv Mastering_physics_stuff/ Sentimental_Uni_Stuff
+mv me/ Daruman
+mv Midnight_Crisis.docx Journal/
+mv Midnight_Crisis.docx Journalling/
+mv ML_Course_Stuff/* ML_Erudition/
+mv ML-L1_8AM-007.mp4 A0_ML_course_content/
+mv ML_-_L1_\(8AM\)-007.mp4 ML-L1_8AM-007.mp4 
+mv ML-L1-8PM_Part_1.mp4 ~/Downloads/A0_ML_course_content/
+mv ML-L1-8PM_\(Part_1\).mp4 ML-L1-8PM_Part_1.mp4 
+mv ML-L1-8PM_\(Part_2\).mp4 ML-L1-8PM_Part_2.mp4
+mv ML-L2.mp4 ~/Downloads/A0_ML_course_content/
+mv ML\ -\ L2.mp4 ML-L2.mp4 
+mv ML-L3.mp4 ~/Downloads/A0_ML_course_content/Weekly_Call_Recordings/
+mv ML\ -\ L3.mp4 ML-L3.mp4 
+mv ML-L5.mp4 ~/Downloads/A0_ML_course_content/
+mv ML-L6-006.mp4 A0_ML_course_content/
+mv ML\ -\ L6-006.mp4 ML-L6-006.mp4 
+mv Motivation/ EMOTIONS/
+mv .mplayer/ .config/
+mv .mplayer/ mplayer/
+mv Music_been_into.docx Lists/
+mv Music/ Recreation/
+mv Music_Theory/ ..
+mv Music_Theory/ 7.Financial/
+mv Music_Theory/ ../Semi-Productive/
+mv My_Greatest_Fears_.docx Journal/
+mv My_Greatest_Fears_.docx Journalling/
+mv My_man.md my_man.md
+mv my_man.md Personal/
+mv My_Thoughts/ EMOTIONS/
+mv Nier-Automata_Music_Mix_Study-Work.mp3 Draken_Nier/
+mv Nier-Automata_Music_Mix_\(Study-Work\).mp3 Nier-Automata_Music_Mix_For_Study-Work.mp3 
+mv Nier-Automata_Music_Mix_\(Study-Work\).mp3 Nier-Automata_Music_Mix_Study-Work.mp3 
+mv NieR_Automata_OST_\(Best_of\).mp3 best_of_NieR_Automata_OST.mp3
+mv NieR_Automata_OST_\(Best_of\).mp3 NieR_Automata_OST_Best_of.mp3
+mv NieR_Automata_OST_-_Blissful_Death_\(Vocals\).mp4 Blissful_Death_Vocals_Nier_OST.mp4
+mv NieR_Automata_OST_-_Blissful_Death_\(Vocals\).mp4 NieR_Automata_OST_-_Blissful_Death_Vocals.mp4 
+mv NieR_Automata_OST_-_Voice_of_No_Return.mp4 Voice_of_No_Return.mp4 
+mv Nier* Draken_Nier/
+mv NieR_* Draken_Nier/
+mv NieR_Gestalt_\&_Replicant_-_Original_Soundtrack.mp4 Gestalt-Replicant_OST.mp4 
+mv NieR_Gestalt_\&_Replicant_-_Original_Soundtrack.mp4 NieR_Gestalt-Replicant_-_Original_Soundtrack.mp4 
+mv NIER_OST_-_Shadowlord.mp4 Draken_Nier/
+mv NIER_OST_-_Shadowlord.mp4 Shadowlord_Nier_OST.mp4
+mv Non-Urgent/* .
+mv \[No_point_in_regret\]_Where_Would_I_be_now_if_I_were_“Perfect_Amin”_Since_2A_.docx Journal/
+mv \[No\ point\ in\ regret\]\ Where\ Would\ I\ be\ now\ if\ I\ were\ “Perfect\ Amin”\ Since\ 2A_.docx Journalling/
+mv nov_25_2019_whateverthisis.docx Journal/
+mv nov_25_2019_whateverthisis.docx Journalling/
+mv nvim ..
+mv nvim/ .dotfiles/
+mv nvim/ old_nvim
+mv oopsharmin.py Coding/
+mv OSAP/ University_Docs/
+mv PDF_Parser2/ ~/Archive/
+mv PDF_Parser/ PDF_Parser2/
+mv PDFparser.py ..
+mv PDFparser.py Bank_Statement_Parser/
+mv Personal/ Desktop/
+mv Personal_Notes/ Self
+mv Questrade_Statements/ Financial/
+mv Rarely_used-dead_documents/ 0.Rarely_used-dead_documents/
+mv Rarely_used-dead_documents/ AARCHIVES/
+mv Rarely_used-dead_documents/ Journal/
+mv RBCMutual_Funds_XXXXX0545-2021Apr01-2021Jun30.pdf RBC_Mutual_Funds_XXXXX0545-2021Apr01-2021Jun30.pdf 
+mv RBC_Statement_to_CSV.py ..
+mv RBC_Statement_to_CSV.py Bank_Statement_Parser/
+mv rc.lua ../.dotfiles/awesome/
+mv Recreation/ ~/Archive/
+mv ../Recreation/Travelling_Stuff/ .
+mv recyclebin/ junk
+mv Resumes/ Adulting/
+mv resume_summary.py summaries.py 
+mv '[ReVisit]_Why_am_I_doing_bad_in_school.docx' Journal/
+mv \[ReVisit\]_Why_am_I_doing_bad_in_school.docx Journalling/
+mv Scan_2017-1-25_13.04.23.pdf Health_Card_Scan_2017-1-25.pdf 
+mv Scan\ 2017-1-25\ 13.04.23.pdf Health_card_scan.pdf
+mv Scripts/ Coding/
+mv Secondary\ PE\ Teacher\ -\ Markham\,\ ON\ -\ Indeed.com* ~/Desktop/Coding/
+mv Secondary\ PE\ Teacher\ -\ Markham\,\ ON\ -\ Indeed.com* WebScraping/
+mv Self/ ..
+mv Self-Analyzing/ 1.Self-Analyzing/
+mv Self-* EMOTIONS/
+mv Self-Help_Stuff/ 2.Self-Help_Stuff/
+mv Self/ HG_Stuff
+mv Self-Improvement/ 3.Self-Improvement/
+mv Semi-Productive/ ..
+mv Semi-Productive/ Recreation/
+mv Sentimental_Uni_Stuff/ ..
+mv sharmin.py Coding/
+mv sillyolfrog.png ~/Downloads/
+mv sillyolfrog.png Recreation/
+mv Soft_skills.temp Personal/
+mv Song_of_the_ancients_devola_guitar.mid Draken_Nier/
+mv spaces_to_underscores.sh unquote-ify.sh
+mv spaces_to_underscores.sh /usr/local/bin/
+mv S_PE_tags.txt S_PE_tags.html
+mv SpiritedAway2001HDTVRip720pDualAudioEngJapBRARr151r378r780.1r693-rh-587.mp4 Sen_to_Chihiro_no_Kamikakushi.mp4
+mv SQL_man.md Personal/
+mv state1.txt ~/
+mv summaries.py 
+mv swim_sched_display.py summer_2024_swim_sched.py
+mv -t ~/Archive/ Trading-Volatility.pdf Recreation/DoneManifesto.png Recreation/sillyolfrog.png JuditCoaching/ 
+mv -t Arch_Temp/ explicit_packages.txt goalnodes.txt March_31_2024_Bucket_list.txt my_man.md Soft_skills.temp SQL_man.md 
+mv tempname/ 7.Financial/
+mv -t foo *
+mv The_best_of_Nier_Automata_OST.mp4 Draken_Nier/
+mv Things_* Journalling/
+mv Things_that_get_me_down.docx Journal/
+mv Things_to_do_when_bored_.docx Lists/
+mv things\ to\ reinstall.txt ..
+mv TimeTracking2022.xlsx How_I_spent/
+mv Time-Tracking/ ../Personal_Notes/
+mv -t me autocommands.lua keymaps.lua opts.lua 
+mv tmux ..
+mv to_be_sorted tbs
+mv -t ../Personal_Notes/Lists/ 4th_year_pm_courses.xlsx  League_champs_4_Aug_2017.xlsx Mathematical_Physics_Faculties.xlsx Tiny_Habits_\(Parent\).xmind Worth_while_Fun_stuff_to_do.docx 
+mv TRANSPORT/ Desktop/
+mv transport/ TRANSPORT
+mv Transport/ transport
+mv Transport Transport1
+mv Transport\' Transport2
+mv Transport\'\'\' Transport3
+mv Transport\'\'\'\' Transport4
+mv Travelling_Stuff/ Documents/
+mv Travelling_Stuff/ ../Recreation/
+mv -t ~/Reorganize/ Final_Lenovo_Transfer/PDF_Parser/ Final_Lenovo_Transfer/Fintrack_Project/
+mv -t ~/Reorganize/ Fintrack_Project2/ PDF_Parser2/
+mv -t Weekly_Call_Recordings/ ML-L* 
+mv ../tweet_sentiment_analysis.csv .
+mv Ultimate_Goals.docx EMOTIONS/
+mv unhkbpoitkbuicnwutiodt.mp4 paprika.mp4
+mv University_Docs/ Documents/
+mv UW_ENDOW\ 201* UW_endowment_docs/
+mv UW_endowment_docs/ University_Docs/
+mv UW_T2202A\ 201 UW_T2202A/
+mv UW_T2202A\ 201* UW_T2202A/
+mv UW_T2202A/ University_Docs/
+mv *_uw_t2202* ../University_Docs/UW_T2202A/
+mv .venv/ .venvs/
+mv vimautomata.png ../Semi-Productive/
+mv voice_of_no_return.mp4 Draken_Nier/
+mv Voice_of_No_Return.mp4 Draken_Nier/
+mv volume_down.sh vd.sh
+mv volume_up.txt Arch_Temp/
+mv volume_up.txt Personal/
+mv What_s_up_.docx Journal/
+mv XXXXX0545-2020Jul01-2020Dec31.pdf RBC_Mutual_Funds_XXXXX0545-2020Jul01-2020Dec31.pdf 
+mv XXXXX0545-2020Jul01-2020Dec31.pdf XXXXX0545-2020Jul01-2020Dec31.pdf 
+mv XXXXX0545-2021Apr01-2021Jun30.pdf RBCMutual_Funds_XXXXX0545-2021Apr01-2021Jun30.pdf 
+mv XXXXX0545-2021Jan01-2021Mar31.pdf RBC_Mutual_Funds_XXXXX0545-2021Jan01-2021Mar31.pdf 
+mv y2mate.com_-_featado_official_video_Baw-cAvS5xc_1080p.mp4 ado_official_video_kinmokusei_1080p.mp4 
+mv y2mate.com_-_featado_official_video_Baw-cAvS5xc_1080p.mp4 kinmokusei.mp4
+mv y2mate.com_-_nier_automata_ost_voice_of_no_return_ubMf__iB8iI_1080p.mp4 voice_of_no_return.mp4
+n
+NE1=$(pactl list sinks | sed -n '/^\tV.*%/p')
+neofetch
+neovim
+[ -n "hello THere" ] && echo "True"
+nim summer_2024_swim_sched.py 
+nvim
+nvim 
+nvim .
+NVIM
+nvim $PERSONAL/.creator\@arch_command_log 
+nvim $PERSONAL/.nima\@Ovonel_command_log 
+nvim $PERSONAL/sep17_exercises.txt 
+nvim 2024-Apr-04.yaml 
+nvim 2024-Apr-05.yaml
+nvim 2024-Sep-16_Mon_log.xml 
+nvim 2024-Sep-17_Tue_log.xml 
+nvim 2024-Sep-18_Wed_log.xml 
+nvim 4th\ year\ pm\ courses.xlsx 
+nvim addresses.csv 
+nvim AllTasks_Draft.md
+nvim AllTasks_Draft.md 
+nvim aminkhadjenouri\@gmail.com.ics
+nvim .ar
+nvim arch_files 
+nvim arch_files.md 
+nvim archives.txt
+nvim archives.txt 
+nvim ATS_Compatibility_for_Resumes.md
+nvim autocommands.lua 
+nvim awesome/rc.lua 
+nvim ../.ba
+nvim bash_
+nvim .bash_alias
+nvim .bash_alias 
+nvim .bash_aliases 
+nvim bash_aliases 
+nvim bash_archive.sh
+nvim bash_archive.sh 
+nvim bash_exports
+nvim bash_exports 
+nvim bash_exports.sh 
+nvim .bash_history 
+nvim .bash_logout 
+nvim .bash_profile 
+nvim bash_prompt
+nvim bash_prompt.sh 
+nvim ../.bashrc 
+nvim .bashrc
+nvim .bashrc 
+nvim ~/.bashrc 
+nvim blueprint.txt
+nvim blueprint.txt 
+nvim boku.lua
+nvim boku.lua 
+nvim bookmarks.html 
+nvim Call_5_-_Autoencoders_\(Blank_Copy\) 
+nvim Call_6_-_GAN_\(Filled_Out\).ipynb 
+nvim CC_2016-10-27.csv 
+nvim ../CC_27-03-23.csv 
+nvim CC_27-03-23.csv 
+nvim CCdata_2016-10-27.csv 
+nvim CC_MetaData_CSVs/CCdata_2016-11-28.csv 
+nvim Chat_GPT_Archive.md
+nvim cnn_erudition.py
+nvim CNN_Erudition.py
+nvim CNN_Erudition.py 
+nvim CNN_Erudition.txt 
+nvim .command_log 
+nvim compare.sh
+nvim compare.sh 
+nvim .config/awesome/
+nvim .config/awesome/rc.lua 
+nvim .config/dconf/
+nvim .config/nvim/init.lua 
+nvim .config/nvim/lua/Daruman/boku.lua 
+nvim creator\@arch 
+nvim .creator\@arch_command_log 
+nvim csv98238may6all.csv 
+nvim Date_Ideas.md
+nvim Desktop/Coding/ML_Course_Stuff/FFNN_emulation.py 
+nvim Desktop/Personal/.creator\@arch_command_log 
+nvim detect.sh 
+nvim detect_sh.bin 
+nvim diary 
+nvim diary_2018_jan-sep.md
+nvim Diary_2018_Jan-Sept.docx 
+nvim Diary\ 2018\ \(Jan-Sept\).docx 
+nvim diary_2018_oct-dec.md
+nvim dircolors 
+nvim drivetest_codes.txt
+nvim dspaces_to_underscores.sh 
+nvim education.py
+nvim education.py 
+nvim elementary_scraping.py
+nvim elementary_scraping.py 
+nvim environment 
+nvim /etc/bash.bashrc 
+nvim /etc/environment 
+nvim /etc/hostname 
+nvim /etc/localtime 
+nvim /etc/makepkg.conf
+nvim /etc/makepkg.conf 
+nvim /etc/pulse/
+nvim /etc/security/pam_env.conf 
+nvim experience.py
+nvim explicit_packages.txt 
+nvim FFNN_emulation.py
+nvim FFNN_emulation.py 
+nvim Fintrack_Project/uaoesu 
+nvim General_LaTeX_docs/things.txt 
+nvim gh_2.39.1_linux_amd64.deb 
+nvim git 
+nvim .gitconfig 
+nvim git_sync 
+nvim Goal_Nodes.txt
+nvim grub 
+nvim gtk.lua 
+nvim health.lua 
+nvim himitsu
+nvim hi_my_name_is_slim.md 
+nvim htop/htoprc 
+nvim htoprc 
+nvim icon_theme.lua 
+nvim ignore_these_directories.sh 
+nvi min
+nvim index.md 
+nvim init.lua
+nvim init.lua 
+nvim Intro\ Slides\ -\ Hands-On\ Intro\ to\ Machine\ Learning.pptx 
+nvim JeffN_MinimalistTrainingPrincipals.txt 
+nvim Job_Data.csv 
+nvim JobSearch_Analyzing_Opportunities.md
+nvim Journal/
+nvim keymaps.lua 
+nvim Keywords_for_Job_Positions.md
+nvim Keywords_for_Job_Positions.md 
+nvim kickstart/plugins/indent_line.lua 
+nvim kickstart/plugins/lint.lua 
+nvim kickstart.txt 
+nvim Labs/Lab\ 1\ -\ Feed\ Forward\ Neural\ Networks 
+nvim la builds/
+nvim lazy-lock.json 
+nvim lazy.lua
+nvim lazy.lua 
+nvim learnlua.lua 
+nvim LICENSE.md 
+nvim Linkedin_Profile_Quick_Setup.md 
+nvim LinkedIn_Sections_By_Keywords.md
+nvim links.cfg
+nvim links.cfg 
+nvim links.his 
+nvim locale.conf 
+nvim lua/luanova/init.lua 
+nvim March_31_2024_Bucket_list.txt
+nvim ML_Erudition.py
+nvim MNIST_FFNN_experimentation_0.0005
+nvim MNIST_FFNN_experimentation_0.0005 
+nvim MNIST_FFNN_experimentation_0.001
+nvim MNIST_FFNN_experimentation_0.001 
+nvim mpl_test.py
+nvim My_Greatest_Fears_.docx 
+nvim my_keyboard_configs 
+nvim my_man.md 
+nvim My_man.md
+nvim My_man.md 
+nvim neofetch/config.conf 
+nvim .nima\@Ovonel_command_log 
+nvim ../nvim/init.lua 
+nvim nvim/init.lua 
+nvim nvim/lua/Daruman/plugins.lua 
+nvim oopsharmin.py
+nvim opts.lua 
+nvim path.txt 
+nvim PDFparser.py 
+nvim person.py
+nvim pip.txt 
+nvim PKGBUILD 
+nvim plugins.lua 
+nvim pyvenv.cfg 
+nvim QtProject.conf 
+nvim RBC_Statement_to_CSV.py 
+nvim ./rc.lua 
+nvim rc.lua 
+nvim README 
+nvim README.md 
+nvim Resume.docx 
+nvim resume_summary.py
+nvim ResumeSummary.txt 
+nvim run.py 
+nvim sat_the_28th.txt
+nvim sat_the_28th.txt 
+nvim Secondary\ PE\ Teacher\ -\ Markham\,\ ON\ -\ Indeed.com.html 
+nvim sep17_thought_draft.txt
+nvim sep17_tracks_to_be_kept.txt
+nvim sep20_exercises.txt
+nvim sharmin2.py
+nvim sharmin.lua
+nvim sharmin.py
+nvim sharmin.py 
+nvim socket 
+nvim something.py
+nvim somithg.py
+nvim spaces_to_underscores.sh
+nvim spaces_to_underscores.sh 
+nvim S_PE_tags.html 
+nvim SQL_man.md
+nvim SSR_TSRPT_Final.pdf 
+nvim Statements_to_CSVs.py
+nvim Statements_to_CSVs.py 
+nvim sty
+nvim .stylua.toml 
+nvim summaries.py 
+nvim summer_2024_swim_sched.py 
+nvim swim_sched_display.py
+nvim System\ Volume\ Information/IndexerVolumeGuid 
+nvim System\ Volume\ Information/WPSettings.dat 
+nvim temp.txt
+nvim temp.txt 
+nvim test.lua
+nvim test.py 
+nvim theme_assets.lua 
+nvim theme.lua 
+nvim Things_on_my_mind_on_the_bus_aug_14.txt 
+nvim Things_that_get_me_down.docx 
+nvim things_to_install.txt 
+nvim things\ to\ reinstall.txt 
+nvim tmlc.sh 
+nvim tmux/tmux.conf 
+nvim To-Dos.md 
+nvim transport/.bashrc 
+nvim -u NONE -N
+nvim user 
+nvim user/
+nvim useradd 
+nvim /usr/bin/anki 
+nvim vconsole.conf 
+nvim vd.sh 
+nvim .vim
+nvim .viminfo 
+nvim .vimrc 
+nvim volume_
+nvim volume_down.sh 
+nvim volume_down.sh 7
+nvim volume_up.
+nvim volume_up.sh 
+nvim volume_up.txt
+nvim volume_up.txt 
+nvim vu.sh 
+nvim weekly_sched_display.py
+nvim weekly_sched_display.py 
+nvim .Xauthority 
+nvim xrand_ar.txt
+nvim xrand_b4.txt
+nvim xresources.lua 
+nvim .xsession-errors
+nvim .xsession-errors 
+nvim .xsession-errors.old 
+nvim .yarnrc 
+nviv /etc/security/pam_env.conf 
+nvmib bash_prompt.sh 
+o
+okular
+open 15841122803313695.ods 
+open 1608773632263.webm 
+open 1905.03869.pdf 
+open 1._ones_song_with_lyrics_comrades_songcompanthem_gabriel_abdiel_drakengard_3_in_game_ost.mp3 
+open 5_centimeters_per_second.mkv 
+open A0_ML_course_content/ML-L1_8AM-007.mp4 
+open Amin\ Application\ Form.pdf 
+open Amin_Application_Form.pdf 
+open Amin_Khadjenouri___Resume.pdf 
+open background.png 
+open background_white.png 
+open Beastars.PNG 
+open BKG_18266243_2024_02_29_10_19_39_893.pdf 
+open BlueMountainVouchers.pdf 
+open ../CC_27-03-23.csv 
+open cd Draken_Nier/
+open Classes_f2020.png 
+open close_focus.png 
+open close_normal.png 
+open Credit_Card_Statement_2021-Jul-27.pdf 
+open Desktop/Final_Lenovo_Transfer/Adulting/Society/BKG_18266243_2024_02_29_10_19_39_893.pdf 
+open Diary_2018_Jan-Sept.docx 
+open Diary_2018_Oct-Dec.docx 
+open Downloads/Lyapunov.jpg 
+open Downloads/sillyolfrog.png 
+open EMOTIONS/Ultimate_Goals.docx 
+open General_LaTeX_docs/GR_Notes.pdf 
+open gkhdigkdmicimkdcgmrcd.xfd.mp4 
+open Have_a_destination.docx 
+open IMG_4033.JPG 
+open Intro\ Slides\ -\ Hands-On\ Intro\ to\ Machine\ Learning.pptx 
+open JuditCoaching
+open JuditCoaching/COACHING_NOTE_3___AMIN_KHADJENOURI___NOV_08\,_2023_\(2\).docx 
+open JuditCoaching_-_Copy/COACHING_NOTE_3___AMIN_KHADJENOURI___NOV_08\,_2023_\(2\).docx 
+open League\ of\ Legends/Replays/NA1-4734928914.rofl 
+open Lyapunov.jpg 
+open Math_Fields_Relation_Plot_1.png 
+open Math_Fields_Relation_Plot_1.png && open Math_Fields_Relation_Plot_2.png 
+open Math_Fields_Relation_Plot_2.png 
+open Math_Fields_Relation_Plot_2.png && open Math_Fields_Relation_Plot_2.png 
+open message.txt 
+open ML\ -\ L1\ \(8AM\)-007.mp4 
+open ML-L1-8PM_Part_1.mp4 
+open ML-L2.mp4 
+open ML-L3.mp4 
+open ML-L5.mp4 
+open Nier-Automata_Music_Mix_For_Study-Work.mp3 
+open NieR_Automata_OST_-_Voice_of_No_Return.mp4 
+open NovaGate_109855900
+open NovaGate_1098559001.pdf 
+open parkingpaymentreciept.pdf 
+open Payment_Sent_–_RBC_Online_Banking.pdf 
+open plot.png 
+open PUPARIA_1080p.mp4 
+open Resume.docx 
+open Scan\ 2017-1-25\ 13.04.23.pdf 
+open Scan_2017-1-25_13.04.23.pdf 
+open Sen_to_Chihiro_no_Kamikakushi.mp4 
+open spiral.png 
+open squarefw.png 
+open squarew.png 
+open SSR_TSRPT_Final.pdf 
+open submenu.png 
+open swim_plot.png 
+open The_String_Quartet.mp3 &
+open The-Top-50-Essential-Programming-Languages.jpg 
+open Things_that_get_me_down.docx 
+open Things_to_do_when_bored_.docx 
+open Ultimate_Goals.docx 
+open unhkbpoitkbuicnwutiodt.mp4 
+open Visa\ Statement-8996\ 2017-11-27.pdf 
+open Visa_Statement-8996_2023-03-27.pdf 
+open Visa\ Statement-8996\ 2023-10-27.pdf 
+open *voice
+open Wallpaper-ish/Family\ \(~2019\)/image1.JPG 
+open Wallpaper-ish/Family\ \(~2019\)/IMG_1781.jpg 
+open WIN_20210427_08_56_35_Pro.jpg 
+open WIN_20210904_11_43_46_Pro\ \(2\).jpg 
+open WIN_20210904_11_43_46_Pro.jpg 
+open XXXXX0545-2020Jul01-2020Dec31.pdf 
+open zenburn/zenburn-background.png 
+pacman -Q base-devel
+pacman -Q basedevel
+pacman -Qe
+pacman -Qe | grep ti
+pacman -Qii base-devel
+pacman -Qii libreoffice
+pacman -Qii mplayer
+pacman -Qii pipewire
+pacman -Qii pulseaudio
+pacman -Qii xz
+pacman -Ql
+pacman -Ql keepassxc
+pacman -Q multilib
+pacman -Qoq /usr/lib/python3.11
+pacman -Qo /usr/lib/python3.11
+pacman -Qs mplayer
+pacman -S ntfs-3g
+pacman -Ss anki
+pacman -Ss chromium
+pacman -Ss fcitx
+pacman -Ss fcitx | grep mozc
+pacman -Ss hostname
+pacman -Ss libreoffice
+pacman -Ss libreoffice | nvim
+pacman -Ss libreoffice-still
+pacman -Ss mplayer
+pacman -Ss mpv
+pacman -Ss ntfs
+pacman -Ss ripgrep
+pacman -Ss rofi
+pacman -Ss rofi | nvim
+pacman -Ss unzip
+pacman -Syu
+pactl
+pactl list
+pactl list 
+pactl list list sinks short | awk '{print $1}'
+pactl list list sinks short | awk 'print $1'
+pactl list list sinks short | awk 'print $11
+pactl list | nvim
+pactl list sink
+pactl list sinks
+pactl list sinks 
+pactl list sinks | grep Vol
+pactl list sinks | grep Vol | sed .
+pactl list sinks | grep Vol | sed 's/*
+pactl list sinks | grep Volume
+pactl list sinks | nvim
+pactl list sinks | sed '/[0-9]*/p
+pactl list sinks | sed '/[0-9]*/p'
+pactl list sinks | sed '/[0-9]*/p' | wc -l
+pactl list sinks | sed -n '/[0-9]*/p'
+pactl list sinks | sed -n '/[0-9]*/p' | wc -l
+pactl list sinks | sed -n '/%/p'
+pactl list sinks | sed -n '/%/p' | sed -n 's/.*\([0-9]*%\).*/\1/p'
+pactl list sinks | sed -n '/%/p' | sed -n 's/^\tV.*\([0-9]\+%\).*/\1/p'
+pactl list sinks | sed -n '/%/p' | sed 's/.*\([0-9]\+%\).*/\0/p'
+pactl list sinks | sed -n '/%/p' | sed 's/.*\([0-9]*%\).*/\1/p'
+pactl list sinks | sed -n '/%/p' | sed 's/.*\([0-9]\+%\).*/\1/p'
+pactl list sinks | sed -n '/%/p' | sed 's/.*\([0-9]\+%\).*/\2/p'
+pactl list sinks | sed -n '/%/p' | sed 's/^\t.*\([0-9]\+%\).*/\1/p'
+pactl list sinks | sed -n '/%/p' | sed 's/^\tV.*\([0-9]\+%\).*/\1/p'
+pactl list sinks | sed -n '/%/p' | sed 's/^V.*\([0-9]\+%\).*/\1/p'
+pactl list sinks | sed -n '/^\tV.*/p'
+pactl list sinks | sed -n '/^\tV.*%/p' | sed -n 's/.* \([0-9]*%\).*/\1/p'
+pactl list sinks | sed -n '/^\tV.*%/p' | sed 's/^.*/
+pactl list sinks | sed -n '/^\tV.*%/p' | sed 's\^.*/\\'
+pactl list sinks | sed -n '/^\tV.*%/p' | sed 's/.* \([0-9]*%\).*/\1/p'
+pactl list sinks | sed -n '/^\tV.*%/p' | sed 's\^.*/\\p'
+pactl list sinks | sed '/%/p'
+pactl list sinks short
+pactl list sinks short | awk $1
+pactl list sinks short | awk '{print $1}'
+pactl list | vim
+pactl set-sink-volume 113 -25%
+pactl set-sink-volume 113 -5%
+pactl set-sink-volume 113 +50%
+pactl set-sink-volume 113 +70%
+pactl set-sink-volume 113 -70%
+pactl suspend
+pactl suspend-sink 65 0
+pactl suspend-sink 65 0 && pactl list sinks short
+pdfminer.six
+per
+per && cd Arch_T*
+per && cd Jou*
+pip
+pip install matplotlib
+pip install pandas
+pip install pdfminer
+pip install pdfminer.six
+pip install requests beautifulsoup4
+pip install --upgrade pip
+pip list
+pip uninstall pdfminer
+pkgbuild
+print $PATH
+ps
+ps -ef
+ps -ef | awk '$7 != "00:00:00"'
+ps -ef | awk '$7 != 00:00:00'
+ps -ef | awk '$7 > "00:00:00"'
+ps -ef | awk '$7 > 00:00:00'
+pulse
+pwd
+PWD
+pwdf
+python3
+python3 exposure/exposure.py
+python3 exposure/exposure_run.py
+python3 exposure.py 
+python3 exposure_run.py 
+python3 -i
+python3 -i sharmin.py 
+python3 sharmin.py 
+python -i
+python -i elementary_scraping.py 
+python -i weekly_sched_display.py 
+python -m FinTrackVenv
+python mpl_test.py 
+python -m venv FinTrackVenv
+python -m venv .venv
+python -V
+python --version
+python weekly_sched_display.py 
+python weekly_sched_display.py && open swim_plot.png 
+:q
+q
+ra
+ra-
+-regextype help
+regextype help
+rg --version
+ripgrep
+rm *
+rm 15841122803313695.ods 
+rm addresses.csv 
+rm aminkhadjenouri\@gmail.com.ic*
+rm Amin.pdf Resume_Amin.pdf Resume.docx 
+rm background*
+rm background.png 
+rm .bash_aliases 
+rm Birthdays_addressbook#contacts\@group.v.calendar.google.com.ics 
+rm BlueMountainVouchers.pdf 
+rm 'book({[)}].pdf
+rm CC_2016-1*
+rm CC_27-03-23.csv 
+rm CC_MetaData_CSVs/*
+rm CC_Transaction_CSVs/*
+rm cd mnt/
+rm Chequing\ Statement-3886\ 2024-0*
+rm cnn_erudition.py
+rm .command_log 
+rm Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ -20240811T025537Z-001.zip 
+rm Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ -20240811T025537Z-002.zip 
+rm Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ -20240811T025537Z-003.zip 
+rm Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ -20240811T025537Z-004.zip 
+rm Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ -20240811T025537Z-005.zip 
+rm creator\@arch 
+rm .creator\@_command_log 
+rm diary 
+rmdir 9.
+rmdir 9.Stuff/
+rmdir 9._To_be_Sorted/
+rmdir Bank_Statement_Parser/
+rmdir Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ 
+rmdir Course\ Files\ -\ Hands-On\ Intro\ to\ Machine\ Learning\ /Weekly\ Call\ Recordings/
+rmdir Lists/
+rmdir matplotlib/
+rmdir ML_Course_Stuff/
+rmdir mnt/
+rmdir Non-Urgent/
+rmdir nvim/
+rmdir nvim/renamed/
+rmdir Quest/
+rmdir Tax_Stuff/
+rmdir test
+rmdir tf/
+rmdir Weekly\ Call\ Recordings/
+rm drivetest_codes.txt 
+rm drjava-beta-20160913-225446.exe 
+rm dspaces_to_underscores.sh 
+rm Fintrack_Project/uaoesu 
+rm -f spaces_to_underscores.sh 
+rm General_LaTeX_docs/Microsoft_Edge.lnk 
+rm hi_my_name_is_slim.md 
+rm index.md 
+rm init.lua 
+rm invite.ics 
+rm LICENSE.md 
+rm nvim/lazy-lock.json 
+rm old_init.lua 
+rm parkingpaymentreciept.pdf 
+rm -r 8.\ Helpul\ Software/
+rm racket-6.6-x86_64-win32.exe 
+rm -r .config/
+rm README 
+rm README.md 
+rm Resume_Amin.*
+rm -rf garbage/
+rm -rf .git
+rm -rf .github/
+rm -rf .gitignore 
+rm -rf System\ Volume\ Information/
+rm -r .git
+rm -r lazy/
+rm -r lua/
+rm -r nvim/lua/
+rm -r .ssh/
+rm -r temp/
+rm -r tmux/
+rm Sen_to_Chihiro_no_Kamikakushi.mp4 
+rm somithg.py 
+rm state*
+rm temp.txt 
+rm test.lua 
+rm The-Top-50-Essential-Programming-Languages.jpg 
+rm Visa\ Statement-8996\ 2023-10-27.pdf 
+rm WIN_20210904_11_43_46_Pro\ \(2\).jpg 
+rm WritingBenefits_with_Instructions_September_2016_02\ \(1\).pdf 
+rm xrand_*
+./run
+-rwxrwxrwx 1  12K May  5  2020  Apr_2020_SSR_TSRPT.pdf
+sam="hi my name is"
+sample
+sample=${$(pwd)/.bashrc}
+sample="$(df)"
+sample=$(df)
+sample=$(pwd)
+sample=$pwd
+sample=$(pwd)/hi
+sample1=bye
+sample=`df
+sample=df
+sample= df -h
+sample=`df -h`
+sample=df -h
+sample="hello"
+sample=hello
+scripts
+sed 's/[^[:alpha:]]//g' temp.txt 
+sed 's/[^[:alpha:]]//g' temp.txt | wc -m
+sed 's/ /_/g' $sam
+sed s/ /_ "hi my name is"
+setxkbmap 
+setxkbmap -option caps:swapescape
+sgdisk
+sharmin.lua
+sh -c "pactl set-sink-mute 0 false; pactl set-sink-volume $SINK +5%"
+sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 2300 +5%"
+SINK=$(pactl list sinks short | awk '{print $1}')
+SINK=$(pactl list sinks short | awk '{print $1})
+source .bash
+source bash_aliases 
+source bash_aliases && source .bashrc 
+source .bashr.
+source .bashr`
+source ../.bashrc 
+source .bashrc
+source .bashrc 
+source ~/.bashrc
+source bin/activate
+source /etc/environment 
+source ../FinTrackVenv/bin/activate
+source FinTrackVenv/bin/activate
+source plugins.lua 
+source rc.lua 
+source /usr/bin/local
+source /usr/local/bin/
+source .venv/bin/activate
+sourch .venv/bin/activate
+~/spaces_to_underscores.sh 4th\ year\ pm\ courses.xlsx 
+~/spaces_to_underscores.sh 7.\ Important\ Files\ \&\ Documents/
+~/spaces_to_underscores.sh 8.\ Helpul\ Software/
+~/spaces_to_underscores.sh 8.\ Personal\ Stuff/
+~/spaces_to_underscores.sh 9.\ To\ be\ Sorted/
+spaces_to_underscores.sh Best\ Version\ of\ Me/
+spaces_to_underscores.sh Completed\ Anime/
+spaces_to_underscores.sh Dec\ 1.docx 
+spaces_to_underscores.sh Diary\ 2018\ \(Jan-Sept\).docx 
+spaces_to_underscores.sh Diary\ 2018\ \(Oct-Dec\).docx 
+~/spaces_to_underscores.sh Did\ You\ Forget\ Again\ \(sentimental\ value\).txt 
+spaces_to_underscores.sh filed\ successfully\ i\ think 
+spaces_to_underscores.sh FINANCE
+spaces_to_underscores.sh Finance\ Stuff/
+spaces_to_underscores.sh General\ LaTeX\ docs/
+spaces_to_underscores.sh Have\ a\ destination.docx 
+./spaces_to_underscores.sh hi\ my\ name\ is\ slim.md 
+./spaces_to_underscores.sh hi\ my\ name\ is\ slim.txt 
+spaces_to_underscores.sh H\&R\ Block\ Donations\ page\ filled.pdf 
+spaces_to_underscores.sh hs\ cs\ course/
+~/spaces_to_underscores.sh League\ champs\ 4\ Aug\ 2017.xlsx 
+spaces_to_underscores.sh Less\ Used\ Docs/
+spaces_to_underscores.sh Mastering\ physics\ stuff/
+~/spaces_to_underscores.sh Mathematical\ Physics\ Faculties.xlsx 
+spaces_to_underscores.sh Midnight\ Crisis.docx 
+spaces_to_underscores.sh Music\ been\ into.docx 
+spaces_to_underscores.sh My\ Greatest\ Fears_.docx 
+spaces_to_underscores.sh My\ Thoughts/
+spaces_to_underscores.sh \[No\ point\ in\ regret\]\ Where\ Would\ I\ be\ now\ if\ I\ were\ “Perfect\ Amin”\ Since\ 2A_.docx 
+spaces_to_underscores.sh nov\ 25\ 2019\ whateverthisis.docx 
+spaces_to_underscores.sh Personal\ Finance\ Stuff/
+spaces_to_underscores.sh Rarely\ used-dead\ documents/
+spaces_to_underscores.sh \[ReVisit\]\ Why\ am\ I\ doing\ bad\ in\ school.docx 
+spaces_to_underscores.sh Self-Help\ Stuff/
+spaces_to_underscores.sh Tax\ Stuff/
+spaces_to_underscores.sh Things\ on\ my\ mind\ on\ the\ bus\ aug\ 14.txt 
+spaces_to_underscores.sh Things\ that\ get\ me\ down.docx 
+spaces_to_underscores.sh Things\ to\ do\ when\ bored_.docx 
+~/spaces_to_underscores.sh Tiny\ Habits\ \(Parent\).xmind b
+spaces_to_underscores.sh Travelling\ Stuff/
+spaces_to_underscores.sh Ultimate\ Goals.docx 
+spaces_to_underscores.sh What_s\ up_.docx 
+~/spaces_to_underscores.sh Worth\ while\ Fun\ stuff\ to\ do.docx 
+ssh
+ssh-add .ssh/id_ed25519
+ssh-keygen -t ed25519 -C "aminkhadjenouri@gmail.com"
+sudo cat hello >> .bash_history 
+sudo cd \$RECYCLE.BIN/
+sudo chmod 644 *
+sudo chmod 664 *
+sudo chmod 664 0.\ Being\ Sorted/
+sudo chmod 755 0.\ Being\ Sorted/
+sudo chmod -R 755 *
+sudo chmod -x aminn_documents/
+sudo chmod -x BabyRudin.Nova 
+sudo chmod -x ~/Downloads/sillyolfrog.png 
+sudo chown creator:creator *
+sudo chown creator:creator dspaces_to_underscores.sh 
+sudo chown creator:creator tmux
+sudo chown creator:creator volume_*
+sudo chown creator nvim/
+sudo chown -R creator:creator *
+sudo chown -R creator:creator Final_Lenovo_Transfer/
+sudo chown -R creator:creator nvim/
+sudo chown -R creator:creator tmux
+sudo chown -R creator nvim
+sudo chown -Rv creator:creator tmux
+sudo chown -Rv creator nvim
+sudo cp -a .config/ ~/.config/
+sudo cp -a /mnt/ Transport/
+sudo cp -av aminn_documents/ ~/Downloads/
+sudo cp -av aminn_downloads/ ~/Downloads/
+sudo cp -av /mnt/ Transport/
+sudo cp -av Resume/ ../7.\ Important\ Files\ \&\ Documents/Resume/temporary/
+sudo cp ~/.config/awesome/Lyapunov.jpg .
+sudo cp * ~/Desktop/Scripts/
+sudo cp /home/creator/transport/0.Sorting/7.Documents/KeePass/PasswordsNew.key /mnt/
+sudo cp /mnt/aminn_stuff/Desktop/LibreWolf\ Portable/BabyRudin.Nova Downloads/
+sudo cp -r default/ ./personal
+sudo cp spaces_to_underscores.sh ./dspaces_to_underscores.sh
+sudo cp /usr/local/Rozanov.pt /mnt/
+sudo cp volume_* /usr/local/bin/
+sudo dmesg
+sudo dmesg | nvim
+sudo dunquote-ify.sh 911Interpreters_Stuff/
+sudo dunquote-ify.sh JuditCoaching
+sudo dunquote-ify.sh JuditCoaching_-_Copy/
+sudo echo $PATH
+sudo fdisk
+sudo fdisk /dev/sdc
+sudo fdisk -l
+sudo find . -iname a$
+sudo find . -iname font*
+sudo find . -iname kdbk
+sudo find . -iname kdbx
+sudo find . -iname *nova
+sudo find . -iname *nova*
+sudo find . -iname *nova\ 
+sudo find . -iname *nova\*
+sudo find . -iname nova
+sudo find . -iname persona*
+sudo find . -iname persona.
+sudo find . -iname personal
+sudo find . -iname raskal
+sudo find . -iname s
+sudo find . -iname s$
+sudo find . -iname s print
+sudo find / -name '*
+sudo find . -name beautiful
+sudo find / -name '*key'
+sudo find / -name *key
+sudo find / -name *key | grep -e '\.key' 
+sudo find / -name *key | grep -e '\.key' -e 'Nova'
+sudo find / -name *key | grep  '\.key' 
+sudo find / -name *key | grep '\.key'
+sudo find / -name *key | grep .key
+sudo find / -name *key | grep \.key
+sudo find / -name *libre*
+sudo find / -name libre
+sudo find / -name libre*
+sudo find . -name media
+sudo find / -name *Nova
+sudo find / -name *Nova*
+sudo find / -name Nova$
+sudo find / -name *Nova* -o '*\.key'
+sudo find / -name *Nova* -o -name '*\.key'
+sudo find / -name *.png
+sudo find / -name rc.lua
+sudo find . -name theme.lua
+sudo find / -name theme.lua
+sudo find / -name *wolf*
+sudo find / -name wolf
+sudo hwclock -v --show
+sudo la 1.\ Academic/
+sudola 1.\ Academic/
+sudo la nvim/
+sudo ln -s ~/Desktop/Coding/Scripts/* .
+sudo ls -Al 1.\ Academic/
+sudo ls -Al 2.\ Books/
+sudo mkdir Adulting 
+sudo mkdir Financial
+sudo mkdir /media
+sudo mkdir Memes 
+sudo mkdir Security
+sudo mkdir Society
+sudo mkfs.ext4 /dev/sdc1
+sudo mount /dev/sdc1 /media/
+sudo mount /dev/sdc1 /mnt
+sudo mount /dev/sdc1 /mnt/
+sudo mount /dev/sdd4 /media/
+sudo mount /mnt/ /dev/sdc
+sudo mount /mnt /dev/sdc1
+sudo mount /mnt/ /dev/sdc1
+sudo mount /mnt/ /dev/sdc1 
+sudo mv 911Interpreters_Stuff/ ../Adulting/
+sudo mv Bank_Accounts_Comparison.ods ../Adulting/
+sudo mv CCprematuregnu.csv ../Adulting/Financial/
+sudo mv dls/* .
+sudo mv Documents/ aminn_documents
+sudo mv DoneManifesto.png Memes/
+sudo mv Downloads/ aminn_downloads
+sudo mv Downloads/himitsu /mnt/
+sudo mv ~/Downloads/Rozanov.pt .
+sudo mv dspaces_to_underscores.sh dunquote-ify.sh
+sudo mv dtop/ Fintrack_Project
+sudo mv FuckWindows/* .
+sudo mv GnuCashContainer/ ../Adulting/Financial/
+sudo mv Job_Data.csv ..
+sudo mv JuditCoaching/ ..
+sudo mv LaTeX/ LaTeX_Resume_Stuff
+sudo mv LaTeX_Resume_Stuff/ ../Adulting/Resumes/
+sudo mv Memes/ Recreation
+sudo mv NovaGate_109855900* ../Memes/
+sudo mv PDF_Parser/ ..
+sudo mv Questrade_Statements/ Financial/
+sudo mv Resume/ ../7.\ Important\ Files\ \&\ Documents/
+sudo mv Resume LaTeX
+sudo mv Resumes/ Adulting/
+sudo mv ResumeSummary.txt ../Adulting/Resumes/
+sudo mv sillyolfrog.png ~/Downloads/
+sudo mv sillyolfrog.png Memes/
+sudo mv spaces_to_underscores.sh unquote-ify.sh
+sudo mv spaces_to_underscores.sh /usr/local/bin/
+sudo mv SSR_TSRPT_Final.pdf ../Adulting/
+sudo mv -t Adulting/ Financial/ BlueMountainVouchers.pdf Scholars_of_Burlington_Docs/ Society/ 
+sudo mv Trading-Volatility.pdf ..
+sudo mv -t Security/ PasswordsMerged.kdbx github-recovery-codes.txt discord_backup_codes.txt 
+sudo mv -t Society/ BKG_18266243_2024_02_29_10_19_39_893.pdf parkingpaymentreciept.pdf 
+sudo mv /usr/local/bin/
+sudo mv /usr/local/bin/* .
+sudo mv -v Final_Lenovo_Transfer/ ~/
+sudo mv volume_down.sh vd.sh
+sudo mv volume_up.sh vu.sh
+sudo nvim .bash_history 
+sudo nvim dspaces_to_underscores.sh 
+sudo nvim dunquote-ify.sh 
+sudo nvim /etc/environment 
+sudo nvim init.lua 
+sudo nvim /mnt/himitsu 
+sudo nvim shadow
+sudo nvim spaces_to_underscores.sh 
+sudo nvim theme.lua 
+sudo nvim unquote-ify.sh 
+sudo pacman -Q chromium
+sudo pacman -Qi chromium
+sudo pacman -Qii chromium
+sudo pacman -S anki
+sudo pacman -S chromium
+sudo pacman -S fcitx
+sudo pacman -S fcitx-mozc
+sudo pacman -S keepassxc
+sudo pacman -S libreoffice
+sudo pacman -S libreoffice-still
+sudo pacman -S links
+sudo pacman -S lynx
+sudo pacman -S mozc
+sudo pacman -S mplayer
+sudo pacman -S mupdf
+sudo pacman -S neofetch
+sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts
+sudo pacman -S ntfs-3g
+sudo pacman -S ripgrep
+sudo pacman -Ss chromium
+sudo pacman -Ss ghc
+sudo pacman -Ss links
+sudo pacman -Ss lynx
+sudo pacman -Ss mozc
+sudo pacman -Ss ripgrep
+sudo pacman -Ss unzip
+sudo pacman -S unzip
+sudo pacman -Syu
+sudo pacman -Syu 
+sudo pacman -Syy
+sudo pacman -S zathura
+sudo rm 911Interpreters_Stuff/ ../Adulting/
+sudo rm addresses.csv 
+sudo rm .bash_alias 
+sudo rmdir dls/
+sudo rmdir docs/
+sudo rmdir FuckWindows/
+sudo rmdir matplotlib/
+sudo rmdir procps/
+sudo rm -f 15841122803313695.ods 
+sudo rm -f background*
+sudo rm -f International_Phonetic_Alphabet_IPA_with_definitions.apkg 
+sudo rm gh_2.39.1_linux_amd64.deb 
+sudo rm path.txt 
+sudo rm -r ./.config/
+sudo rm README 
+sudo rm README.md 
+sudo rm -rf JuditCoaching_-_Copy/
+sudo rm -rf League\ of\ Legends/
+sudo rm -rf PowerToys/
+sudo rm -rf System\ Volume\ Information/
+sudo rm -r htop/
+sudo rm -r libreoffice/
+sudo rm -r LibreWolf\ Portable/
+sudo rm -r neofetch/
+sudo rm -r System\ Volume\ Information/
+sudo rm volume_up.txt 
+sudo shutdown now
+sudo sillyolfrog.png ~/Downloads/
+sudo umount /media/
+sudo umount /mnt
+sudo umount /mnt/
+sudo umount mnt
+sudo umount mnt/
+sudo unquote-ify.sh 911Interpreters\ Stuff/
+sudo unquote-ify.sh Bank\ Accounts\ Comparison.ods 
+sudo unquote-ify.sh JuditCoaching\ -\ Copy/
+sudo /usr/local/bin/dspaces_to_underscores.sh .
+sudo /usr/local/bin/dspaces_to_underscores.sh Desktop/
+sudo /usr/local/bin/dspaces_to_underscores.sh Downloads/
+tee
+tee "$(la)" temp.txt
+tee $(la) temp.txt
+tee diary
+temp=32
+test -r ~/.dircolors && echo "ya"
+test=sample
+time
+timedatectl
+timedatectl list-timezones
+timedatectl set-timezone Canada/Eastern
+timedatectl status
+time edt
+tmlc.sh 
+tmux
+top
+total 212K
+touch autocommands.lua
+touch 'book(){}[].pdf'
+touch 'book({[)}].pdf
+touch command_list_using_history.txt 
+touch explicit_packages.txt && pacman -Qe > explicit_packages.txt
+touch Fintrack_Project/uaoesu
+touch 'hi my name is slim.txt'
+touch index.md
+touch init.lua
+touch keymaps.lua
+touch lazy.nvim
+touch opts.lua
+touch plugins.lua
+touch temp/item1.txt
+touch temp/'item 2.txt'
+touch temp/item\ 3.txt
+tree .
+udiskctl
+udisks
+udisksctl
+umount
+umount /mnt/
+unlink Desktop
+unquote-ify.sh *
+unquote-ify.sh .
+unquote-ify.sh 0.\ Being\ Sorted/
+unquote-ify.sh Amin\ Application\ Form.pdf 
+unquote-ify.sh Bank_Stuff/Credit\ Card\ Statement\ 2021-Jul-27.pdf 
+unquote-ify.sh Blank\ Code\ Samples/
+unquote-ify.sh Classes\ f2020.png 
+unquote-ify.sh Coding\ Samples/
+unquote-ify.sh Filled-Out\ Code\ Samples/
+unquote-ify.sh Hands-on\ Intro\ to\ Machine\ Learning\ -\ Schedule\ and\ Course\ Description.docx 
+unquote-ify.sh hs\ cs\ course/
+unquote-ify.sh Intro\ Slides\ -\ Hands-On\ Intro\ to\ Machine\ Learning.pptx 
+unquote-ify.sh Less\ Used\ Docs/
+unquote-ify.sh Math\ Books/
+unquote-ify.sh Math\ Fields\ Relation\ Plot\ 
+unquote-ify.sh Math\ Fields\ Relation\ Plot\ 1.png 
+unquote-ify.sh Math\ Fields\ Relation\ Plot\ 2.png 
+unquote-ify.sh ML\ -\ L1\ \(8AM\)-007.mp4 
+unquote-ify.sh ML-L1-8PM\ \(Part\ 1\).mp4 
+unquote-ify.sh ML-L1-8PM\ \(Part\ 2\).mp4 
+unquote-ify.sh System\ Volume\ Information/
+unquote-ify.sh Things\ on\ my\ mind\ on\ the\ bus\ aug\ 14.txt 
+unquote-ify.sh things\ to\ reinstall.txt 
+unquote-ify.sh Visa\ Statement-8996\ 2017-11-27.pdf 
+unquote-ify.sh Visa\ Statement-8996\ 2023-03-27.pdf 
+unquote-ify.sh Visa\ Statement-8996\ 2023-10-27.pdf 
+unzip aminkhadjenouri\@gmail.com.ical.zip 
+vd
+vd.sh
+vd.sh 
+vd.sh 10
+vd.sh 20
+vd.sh 25
+vd.sh 3
+vd.sh 5
+venv
+vim
+vim .bashrc 
+virtual
+virtualenv
+VOLNUM1=$(echo "$NE1" | sed -n 's/.* \([0-9]*%\).*/\1/p')
+vu.sh 5
+w3m
+whereis $EDITOR
+whereis vu.sh
+which python
+xdg-open zenburn/zenburn-background.png 
+xrandr
+xrandr --listproviders
+xrandr --output HDMI-0 --auto
+xrandr --query
+zathura
+zathura Visa\ Statement-8996\ 2023-10-27.pdf 
+zathura Visa_Statement-8996_2023-10-27.pdf 
+zatuhra Visa_Statement-8996_2023-10-27.pdf 
+[ -z "hello THere" ]
+[ -z "hello THere" ] && echo "False"
+[ -z "hello THere" ] && echo "True"

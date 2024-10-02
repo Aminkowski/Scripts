@@ -1,0 +1,69 @@
+day mo  da hh:mm:ss MD tzn year - pwd  ??  command
+Sat Sep 28 02:47:48 PM EDT 2024 - /home/creator  6064  git_sync 
+Sat Sep 28 02:49:42 PM EDT 2024 - /home/creator  6064  git_sync 
+Sat Sep 28 02:49:43 PM EDT 2024 - /home/creator  6064  git_sync 
+Sat Sep 28 02:49:43 PM EDT 2024 - /home/creator  6064  git_sync 
+Sat Sep 28 02:49:43 PM EDT 2024 - /home/creator  6064  git_sync 
+Sat Sep 28 02:49:43 PM EDT 2024 - /home/creator  6064  git_sync 
+Sat Sep 28 02:49:43 PM EDT 2024 - /home/creator  6064  git_sync 
+Sat Sep 28 02:52:33 PM EDT 2024 - /home/creator  6065  sudo pacman -Syu
+Sat Sep 28 02:53:13 PM EDT 2024 - /home/creator/Desktop/Coding  6065  code
+Sat Sep 28 02:53:14 PM EDT 2024 - /home/creator/Desktop/Coding  6066  la
+Sat Sep 28 02:53:53 PM EDT 2024 - /home/creator/Desktop/Coding  6067  mkdir HTML-CSS
+Sat Sep 28 02:53:55 PM EDT 2024 - /home/creator/Desktop/Coding/HTML-CSS  6068  cd HTML-CSS/
+Sat Sep 28 02:53:55 PM EDT 2024 - /home/creator/Desktop/Coding/HTML-CSS  6069  la
+Sat Sep 28 02:56:45 PM EDT 2024 - /home/creator/Desktop/Coding/HTML-CSS  6070  nvim notes
+Sat Sep 28 02:56:46 PM EDT 2024 - /home/creator/Desktop/Coding  6071  cd ..
+Sat Sep 28 02:57:06 PM EDT 2024 - /home/creator/Desktop/Coding  6072  mv HTML-CSS/ Build_a_Website
+Sat Sep 28 02:57:08 PM EDT 2024 - /home/creator/Desktop/Coding  6073  cd ht
+Sat Sep 28 02:57:11 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6074  cd Build_a_Website/
+Sat Sep 28 02:57:22 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6075  nvim notes 
+Sat Sep 28 02:57:35 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6076  touch index.html
+Sat Sep 28 02:57:37 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6077  la
+Sat Sep 28 02:57:52 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6078  mkdir CSS
+Sat Sep 28 02:57:57 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6079  mkdir Images
+Sat Sep 28 02:58:06 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6080  touch CSS/style.css
+Sat Sep 28 02:58:08 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6081  la CSS/
+Sat Sep 28 02:58:33 PM EDT 2024 - /home/creator  6064  git_sync 
+Sat Sep 28 02:58:38 PM EDT 2024 - /home/creator  6065  la
+Sat Sep 28 02:58:46 PM EDT 2024 - /home/creator/Downloads  6066  cd Downloads/
+Sat Sep 28 02:58:46 PM EDT 2024 - /home/creator/Downloads  6067  la
+Sat Sep 28 02:58:50 PM EDT 2024 - /home/creator  6068  cd ..
+Sat Sep 28 03:00:56 PM EDT 2024 - /home/creator  6068  cd ..
+Sat Sep 28 03:01:20 PM EDT 2024 - /home/creator  6069  mv Downloads/abstract-science-fiction-futuristic-background-with-red-blue-neon-lights.jpg $CODESPACE/Build_a_Website/Images/
+Sat Sep 28 03:01:24 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6082  la Images/
+Sat Sep 28 03:14:09 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6083  nvim index.html 
+Sat Sep 28 03:14:51 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6084  open index.html 
+Sat Sep 28 03:45:49 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6085  nvim index.html 
+Sat Sep 28 03:46:06 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6086  mv index.html bare_boiler.html
+Sat Sep 28 03:52:58 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6087  nvim index.html
+Sat Sep 28 03:53:34 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6088  mv index.html step_3.html
+Sat Sep 28 03:53:43 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6089  cp step_3.html index.html
+Sat Sep 28 08:27:47 PM EDT 2024 - /home/creator  6069  mv Downloads/abstract-science-fiction-futuristic-background-with-red-blue-neon-lights.jpg $CODESPACE/Build_a_Website/Images/
+Sat Sep 28 08:27:58 PM EDT 2024 - /home/creator/Desktop/Coding  6070  cd $CODESPACE/
+Sat Sep 28 08:28:02 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website/Images  6071  cd Build_a_Website/Images/
+Sat Sep 28 08:28:03 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website/Images  6072  la
+Sat Sep 28 08:28:24 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website/Images  6073  mv abstract-science-fiction-futuristic-background-with-red-blue-neon-lights.jpg scifi.jpg
+Sat Sep 28 08:40:38 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6090  nvim index.html 
+Sat Sep 28 08:44:29 PM EDT 2024 - /home/creator  6073  mv abstract-science-fiction-futuristic-background-with-red-blue-neon-lights.jpg scifi.jpg
+Sat Sep 28 08:44:38 PM EDT 2024 - /home/creator/.config/.dotfiles  6074  dot
+Sat Sep 28 08:44:43 PM EDT 2024 - /home/creator/.config/.dotfiles  6075  cd nvim/l
+Sat Sep 28 08:44:47 PM EDT 2024 - /home/creator/.config/.dotfiles/nvim/lua/Daruman  6076  cd nvim/lua/Daruman/
+Sat Sep 28 08:44:48 PM EDT 2024 - /home/creator/.config/.dotfiles/nvim/lua/Daruman  6077  la
+Sat Sep 28 08:44:54 PM EDT 2024 - /home/creator/.config/.dotfiles/nvim/lua/Daruman  6078  nvim boku.lua 
+Sat Sep 28 08:44:57 PM EDT 2024 - /home/creator/.config/.dotfiles/nvim/lua/Daruman  6079  nvi min
+Sat Sep 28 08:45:01 PM EDT 2024 - /home/creator/.config/.dotfiles/nvim/lua/Daruman  6080  nvim init.lua 
+Sat Sep 28 08:45:13 PM EDT 2024 - /home/creator/.config/.dotfiles/nvim/lua/Daruman  6081  nvim keymaps.lua 
+Sat Sep 28 08:45:59 PM EDT 2024 - /home/creator  6081  nvim keymaps.lua 
+Sat Sep 28 08:46:01 PM EDT 2024 - /home/creator/Desktop/Coding  6082  code
+Sat Sep 28 08:46:03 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6083  cd Build_a_Website/
+Sat Sep 28 08:46:03 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6084  la
+Sat Sep 28 08:47:57 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6090  nvim index.html 
+Sat Sep 28 09:00:22 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6090  nvim index.html 
+Sat Sep 28 09:00:46 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6091  mv index.html step_4.html
+Sat Sep 28 09:02:30 PM EDT 2024 - /home/creator  6084  la
+Sat Sep 28 09:02:33 PM EDT 2024 - /home/creator/.config/.dotfiles  6085  dot
+Sat Sep 28 09:02:40 PM EDT 2024 - /home/creator/.config/.dotfiles/nvim/lua/Daruman  6086  cd nvim/lua/Daruman/
+Sat Sep 28 09:02:54 PM EDT 2024 - /home/creator/.config/.dotfiles/nvim/lua/Daruman  6087  nvim opts.lua 
+Sat Sep 28 09:23:04 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6092  nvim index.html
+Sat Sep 28 09:26:18 PM EDT 2024 - /home/creator/Desktop/Coding/Build_a_Website  6093  nvim index.html 
