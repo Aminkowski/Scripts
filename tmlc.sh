@@ -1,10 +1,10 @@
 #! /bin/bash
-if [ ! -d "$PERSONAL/Journal_Entries" ]; then 
+if [ ! -d "$PERSONAL/Tracking" ]; then 
     echo "no per/Journal_Entries. Abort."
     exit 1
 fi
 
-cd "$PERSONAL/Journal_Entries"
+cd "$PERSONAL/Tracking/time_log"
 
 THE_DATE=$(date)
 meridiem=$(echo $THE_DATE | awk '{print $6}')
