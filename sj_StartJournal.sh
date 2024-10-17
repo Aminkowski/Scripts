@@ -4,20 +4,16 @@ if [ ! -d "$PERSONAL/Journal" ]; then
     exit 1
 fi
 
+if [ $# -gt 0 ];
+then
+  file_name=$(date -d '-1 day' '+%Y-%m-%d_journal.md')
+else
+  file_name=$(date '+%Y-%m-%d_journal.md')
+fi
+
 cd "$PERSONAL/Journal"
 
-THE_DATE=$(date)
-meridiem=$(echo $THE_DATE | awk '{print $6}')
-case "$meridiem" in
-  "PM")
-    file_name=$(echo $THE_DATE | awk '{print $3 $2"_primaryDraft.md"}');;
-  "AM")
-    file_name=$(echo $THE_DATE | awk '{print $3 ($2-1)"_primaryDraft.md"}');;
-  *)
-    echo "date command not working as expected" && exit 1;;
-esac
-
-if [ -f "$PERSONAL/Journal/$file_name" ]; then 
+if [ -f "$file_name" ]; then 
     echo "File already exists. Editing..."
     nvim "$file_name"
     exit 0
