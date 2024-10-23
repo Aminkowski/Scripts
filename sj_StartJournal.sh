@@ -34,7 +34,7 @@ echo '### What I ate:' >> $file_name &&
 echo '### Exercise:' >> $file_name &&
 echo '### Meditation:' >> $file_name &&
 echo '### Dream:' >> $file_name &&
-echo '##### Hygiene: Shower [ ] Shampoo [ ]  Brow [ ]  Cheeks [ ]  Beard [ ] Floss [ ] Calluses [ ] Nails [ ]' >> $file_name &&
+echo '##### Hygiene: Shower [ ] Shampoo [ ]  Brow [ ]  Cheeks [ ]  Moisturizer [ ] Beard [ ] Floss [ ] Teeth { } { } Calluses [ ] Nails [ ] Trimming { } { } ' >> $file_name &&
 echo '### Finances:' >> $file_name &&
 echo '### Files:' >> $file_name &&
 find ~ \( -path */.git -o -path ~/.cache -o -path ~/.local -o -path ~/.config -o -path ~/.mozilla \) -prune -o -newerct "$(date -d '-1 day' '%Y/%m/%d 6:00:00')" >> $file_name &&
