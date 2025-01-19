@@ -23,4 +23,4 @@ find_command="${find_command::-2}"
 find_command+="\) -prune -o -print"
 
 # echo "$find_command" >> "$(date | awk '{print $5}')test.txt"
-eval "$find_command" >> "$(date | awk '{print $5}')test.txt"
+eval "$find_command" >> "$(date '+%T')test.txt"
