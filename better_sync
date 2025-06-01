@@ -3,11 +3,11 @@ eval $(ssh-agent)
 ssh-add
 
 function gitStuff {
-    echo -e "syncing $(pwd)\n"
+    echo -e "syncing $(pwd)"
     [ -n "$(git status -s)" ] &&    # if no change, no commit
     read -p "would you like to continue? [Y/n]" &&
     if [[ "$REPLY" =~ [Yy] ]]; then
-        git fetch -q && git diff --stat && git pull -q && git add . && git commit -qm "script sync: $(git status -s)" && git push -q      # modify message
+        git fetch -q && git diff --stat && git pull -q && git add . && git commit -qm "script sync: $(git status -s)" && git push -q
     else
         true    # pass / do nothing
     fi
