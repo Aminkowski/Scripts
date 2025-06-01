@@ -7,7 +7,7 @@ function gitStuff {
     [ -n "$(git status -s)" ] &&    # if no change, no commit
     read -p "would you like to continue? [Y/n]" &&
     if [[ "$REPLY" =~ [Yy] ]]; then
-        git fetch -q && git diff --stat && git pull -q && git add . && git commit -qm "routine sync via script" && git push -q      # modify message
+        git fetch -q && git diff --stat && git pull -q && git add . && git commit -qm "script sync: $(git status -s)" && git push -q      # modify message
     else
         true    # pass / do nothing
     fi
