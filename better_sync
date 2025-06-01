@@ -5,11 +5,12 @@ ssh-add
 function gitStuff {
     echo -e "syncing $(pwd)\n"
     [ -n "$(git status -s)" ] &&    # if no change, no commit
-    # read -p "would you like to continue?" &&
-    # [[ "$REPLY" ~= [Yy] ]]  # then do other stuff otherwise exit or continue (out of func)
-    git fetch -q &&
-    git diff --stat &&
-    git pull -q && git add . && git commit -qm "routine sync via script" && git push -q
+    read -p "would you like to continue? [Y/n]" &&
+    if [[ "$REPLY" =~ [Yy] ]]; then
+        git fetch -q && git diff --stat && git pull -q && git add . && git commit -qm "routine sync via script" && git push -q      # modify message
+    else
+        true    # pass / do nothing
+    fi
 }
 
 function traverse {
