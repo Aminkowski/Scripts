@@ -1,0 +1,39 @@
+#! /bin/bash
+eval $(ssh-agent)
+ssh-add
+
+function gitStuff {
+    echo -e "syncing $(pwd)\n"
+    [ -n "$(git status -s)" ] &&
+    # read -p "would you like to continue?" &&
+    # [[ "$REPLY" ~= [Yy] ]]  # then do other stuff otherwise exit or continue
+    git fetch -q
+    git diff --stat
+    git pull -q && git add . && git commit -qm "routine sync via script" && git push -q
+}
+
+function traverse {
+    [ "$#" -ne 1 ] && exit 1
+    [ ! -d "$1" ] && exit 2
+    local base="$(pwd)"
+    cd "$1"
+    if [ -d .git ]
+    then
+        gitStuff
+    else
+        local branches=($(ls -A))
+        for file in "${branches[@]}"; do
+            [[ "$file" =~ [Vv]env ]] && continue
+            if [ -d "$file" ]; then
+                traverse "$file"
+            fi
+        done
+    fi
+    cd "$base"    # is oldpwd updated in the tree? should I declare a variable instead?
+}
+
+startingDir="$(pwd)"
+
+whereMyCodeIs=("$PERSONAL" "$MY_DOTFILES" "$CODESPACE")
+
+for dir in "${whereMyCodeIs[@]}"; do traverse "$dir"; done && exit 0
