@@ -4,11 +4,11 @@ ssh-add
 
 function gitStuff {
     echo -e "syncing $(pwd)\n"
-    [ -n "$(git status -s)" ] &&
+    [ -n "$(git status -s)" ] &&    # if no change, no commit
     # read -p "would you like to continue?" &&
-    # [[ "$REPLY" ~= [Yy] ]]  # then do other stuff otherwise exit or continue
-    git fetch -q
-    git diff --stat
+    # [[ "$REPLY" ~= [Yy] ]]  # then do other stuff otherwise exit or continue (out of func)
+    git fetch -q &&
+    git diff --stat &&
     git pull -q && git add . && git commit -qm "routine sync via script" && git push -q
 }
 
@@ -29,10 +29,8 @@ function traverse {
             fi
         done
     fi
-    cd "$base"    # is oldpwd updated in the tree? should I declare a variable instead?
+    cd "$base"
 }
-
-startingDir="$(pwd)"
 
 whereMyCodeIs=("$PERSONAL" "$MY_DOTFILES" "$CODESPACE")
 
