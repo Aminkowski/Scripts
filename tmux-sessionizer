@@ -1,0 +1,23 @@
+#! /bin/bash
+
+[ $# -eq 1 ] &&
+    directory="$1" ||
+    directory=$(find ~ -maxdepth 3 -type d | fzf)
+    # directory=$(find ~/Desktop ~/Downloads ~/Documents -mindepth 1 -maxdepth 2 -type d | fzf)
+
+[ -z "$directory" ] && echo "Error: Directory not specified" && exit 3
+
+dir_name="$(basename $directory | tr '. /,;-' '_')"
+tmux_proc="$(pgrep tmux)"
+
+if [ -z $TMUX ] && [ -z "$tmux_proc" ]; then
+    tmux new-session -s "$dir_name" -c "$directory" 
+    exit 0
+fi
+
+if ! tmux has-session -t="$directory" 2> /dev/null; then    # when no sess
+    tmux new-session -ds "$dir_name" -c "$directory"
+    # not sure what -d does exactly but prevents nesting
+fi
+
+tmux switch-client -t "$dir_name"
